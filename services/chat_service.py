@@ -131,7 +131,7 @@ def handle_message(user_id: str, user_msg: str, channel='web') -> str:
             set_user_country(user_id, COUNTRY_CODES[user_msg.strip()])
             reset_user_history(user_id)
             print(f"[info] Usuario {user_id} eligió país {COUNTRY_CODES[user_msg.strip()]}")
-            return "¡Gracias! Ahora puedes preguntarme por horarios o direcciones. 😊"
+            return "¡Gracias! Ahora puedes preguntarme lo que necesites. 😊"
         else:
             return WELCOME_MESSAGE
 
