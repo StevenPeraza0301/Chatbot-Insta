@@ -1,0 +1,79 @@
+[
+  {
+    "id": "requisitos-generales",
+    "pregunta": "¿Cuáles son los requisitos para un crédito?",
+    "keywords": ["requisitos", "información", "solicitar crédito", "condiciones"],
+    "tipo": "Condiciones generales",
+    "respuesta": "Para solicitar tu crédito debés ser mayor de 19 años y contar con un ingreso mensual a partir de ¢200.000. Podés llenar el formulario en https://www.instacredit.com/prestamos/ y recibir una respuesta inmediata."
+  },
+  {
+    "id": "requisitos-independiente",
+    "pregunta": "¿Cuáles son los requisitos para independientes o comerciantes?",
+    "keywords": ["requisitos independiente", "tengo negocio", "soy comerciante", "actividad comercial"],
+    "tipo": "Crédito para independientes",
+    "respuesta": "Para solicitar tu crédito debés ser mayor de 25 años o 21 años si sos dueño de propiedad, tener documento de identidad vigente, 12 meses de actividad comercial e ingresos mínimos de ¢300.000. Podés aplicar en https://www.instacredit.com/prestamos/"
+  },
+  {
+    "id": "emprendimiento-no-aplica",
+    "pregunta": "¿Dan crédito para empezar un emprendimiento?",
+    "keywords": ["emprendimiento", "emprender", "crédito para emprender", "quiero empezar un negocio", "emprendimiento"],
+    "tipo": "Restricciones",
+    "respuesta": "Te comentamos que actualmente no brindamos créditos para empezar un emprendimiento. Para más información visitá https://www.instacredit.com/prestamos/"
+  },
+  {
+    "id": "requisitos-pensionado",
+    "pregunta": "¿Qué requisitos tiene un pensionado para solicitar crédito?",
+    "keywords": ["requisitos pensionado", "soy pensionado", "crédito para pensionado", "pensionado", "pensionados", "pensionado"],
+    "tipo": "Crédito para pensionados",
+    "respuesta": "Debés tener documento de identidad vigente y contar con un ingreso de pensión superior a ¢200.000. Podés aplicar en https://www.instacredit.com/prestamos/"
+  },
+  {
+    "id": "record-crediticio",
+    "pregunta": "¿Revisan mi récord crediticio?",
+    "keywords": ["record crediticio", "historial crediticio", "estoy manchado"],
+    "tipo": "Política de evaluación",
+    "respuesta": "Sí, validamos el récord crediticio de todas nuestras solicitudes. Esto es parte del proceso de evaluación estándar."
+  },
+  {
+    "id": "tasa-interes",
+    "pregunta": "¿Cuál es la tasa de interés?",
+    "keywords": ["tasa de interés", "cómo funciona la tasa", "intereses"],
+    "tipo": "Condiciones financieras",
+    "respuesta": "Las tasas de interés son fijas y se calculan sobre el saldo de la deuda. Esto significa que a medida que pagás, los intereses disminuyen. Podés hacer abonos extraordinarios o cancelar tu préstamo sin penalizaciones."
+  },
+  {
+    "id": "monto-maximo-minimo",
+    "pregunta": "¿Cuál es el monto mínimo o máximo que se puede solicitar?",
+    "keywords": ["monto máximo", "monto mínimo", "mínimo", "máximo"],
+    "tipo": "Condiciones de crédito",
+    "respuesta": "Para más información sobre los montos disponibles de crédito, podés ingresar a https://www.instacredit.com/prestamos/"
+  },
+  {
+    "id": "refinanciamiento",
+    "pregunta": "¿Puedo refinanciar mi préstamo?",
+    "keywords": ["refinanciar", "necesito refinanciar", "refinanciación"],
+    "tipo": "Opciones de crédito",
+    "respuesta": "Podés enviar tus datos por privado para que consultemos tu caso con el departamento encargado. Con gusto te orientaremos."
+  },
+  {
+    "id": "credito-vehiculo",
+    "pregunta": "¿Puedo solicitar un crédito para moto o carro?",
+    "keywords": ["quiero una moto", "necesito un carro", "crédito para vehículo", "necesito vehículo", "carro", "moto"],
+    "tipo": "Crédito para vehículo",
+    "respuesta": "Claro que sí. Para más información podés llamar o escribir al 7203-3834 para ser atendido por un asesor."
+  },
+  {
+    "id": "gastos-tramite",
+    "pregunta": "¿Cobran por trámites o solicitan pagos por adelantado?",
+    "keywords": ["dinero adelantado", "trámite", "piden dinero", "pagos previos", "cobro de trámite"],
+    "tipo": "Política de seguridad",
+    "respuesta": "Instacredit nunca te solicitará dinero ni pagos previos antes de la aprobación de tu crédito. Tené cuidado con fraudes."
+  },
+  {
+    "id": "quien-aplica",
+    "pregunta": "¿Qué personas pueden aplicar a un crédito?",
+    "keywords": ["quiénes aplican", "qué personas aplican", "aplican a crédito"],
+    "tipo": "Perfil del solicitante",
+    "respuesta": "Pueden aplicar personas asalariadas, independientes y pensionadas que cumplan con los requisitos correspondientes. Para más detalles ingresá a https://www.instacredit.com/prestamos/"
+  }
+]
