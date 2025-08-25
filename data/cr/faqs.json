@@ -2,78 +2,398 @@
   {
     "id": "requisitos-generales",
     "pregunta": "¿Cuáles son los requisitos para un crédito?",
-    "keywords": ["requisitos", "información", "solicitar crédito", "condiciones"],
+    "keywords": [
+      "requisitos para crédito",
+      "qué piden para préstamo",
+      "qué necesito para crédito",
+      "documentación necesaria",
+      "documentos para préstamo",
+      "condiciones para solicitar crédito",
+      "solicitud de préstamo",
+      "requisitos mínimos",
+      "quiero crédito",
+      "cómo pedir un préstamo",
+      "información para crédito",
+      "condiciones generales de crédito"
+    ],
     "tipo": "Condiciones generales",
     "respuesta": "Para solicitar tu crédito debés ser mayor de 19 años y contar con un ingreso mensual a partir de ¢200.000. Podés llenar el formulario en https://www.instacredit.com/prestamos/ y recibir una respuesta inmediata."
   },
   {
     "id": "requisitos-independiente",
     "pregunta": "¿Cuáles son los requisitos para independientes o comerciantes?",
-    "keywords": ["requisitos independiente", "tengo negocio", "soy comerciante", "actividad comercial"],
+    "keywords": [
+      "requisitos para trabajadores independientes",
+      "soy independiente",
+      "trabajo por mi cuenta",
+      "negocio propio",
+      "crédito para comerciantes",
+      "dueño de negocio",
+      "autónomo",
+      "actividad comercial",
+      "no soy asalariado",
+      "trabajador informal",
+      "requisitos para emprendedores",
+      "cómo obtener crédito siendo independiente",
+      "puedo aplicar si tengo negocio"
+    ],
     "tipo": "Crédito para independientes",
     "respuesta": "Para solicitar tu crédito debés ser mayor de 25 años o 21 años si sos dueño de propiedad, tener documento de identidad vigente, 12 meses de actividad comercial e ingresos mínimos de ¢300.000. Podés aplicar en https://www.instacredit.com/prestamos/"
   },
   {
     "id": "emprendimiento-no-aplica",
     "pregunta": "¿Dan crédito para empezar un emprendimiento?",
-    "keywords": ["emprendimiento", "emprender", "crédito para emprender", "quiero empezar un negocio", "emprendimiento"],
+    "keywords": [
+      "emprender",
+      "empezar negocio",
+      "crédito para emprender",
+      "financiar un emprendimiento",
+      "abrir negocio",
+      "soy emprendedor",
+      "quiero empezar empresa",
+      "préstamo para iniciar negocio",
+      "apoyo para emprender",
+      "tienen crédito para nuevos negocios",
+      "créditos para emprendimientos"
+    ],
     "tipo": "Restricciones",
     "respuesta": "Te comentamos que actualmente no brindamos créditos para empezar un emprendimiento. Para más información visitá https://www.instacredit.com/prestamos/"
   },
   {
     "id": "requisitos-pensionado",
     "pregunta": "¿Qué requisitos tiene un pensionado para solicitar crédito?",
-    "keywords": ["requisitos pensionado", "soy pensionado", "crédito para pensionado", "pensionado", "pensionados", "pensionado"],
+    "keywords": [
+      "soy pensionado",
+      "soy jubilado",
+      "adulto mayor crédito",
+      "requisitos para pensionados",
+      "crédito para jubilado",
+      "prestamos a pensionados",
+      "puede un pensionado aplicar",
+      "ingresos por pensión",
+      "prestamos a mayores",
+      "personas pensionadas",
+      "prestamo con pensión"
+    ],
     "tipo": "Crédito para pensionados",
     "respuesta": "Debés tener documento de identidad vigente y contar con un ingreso de pensión superior a ¢200.000. Podés aplicar en https://www.instacredit.com/prestamos/"
   },
   {
     "id": "record-crediticio",
     "pregunta": "¿Revisan mi récord crediticio?",
-    "keywords": ["record crediticio", "historial crediticio", "estoy manchado"],
+    "keywords": [
+      "chequean historial crediticio",
+      "verificación de récord crediticio",
+      "score crediticio",
+      "buró de crédito",
+      "consultan mi crédito",
+      "mi historial está manchado",
+      "verifican antecedentes financieros",
+      "mi récord no está limpio",
+      "analizan historial de pago",
+      "reportes de crédito",
+      "validan el récord crediticio"
+    ],
     "tipo": "Política de evaluación",
     "respuesta": "Sí, validamos el récord crediticio de todas nuestras solicitudes. Esto es parte del proceso de evaluación estándar."
   },
   {
     "id": "tasa-interes",
     "pregunta": "¿Cuál es la tasa de interés?",
-    "keywords": ["tasa de interés", "cómo funciona la tasa", "intereses"],
+    "keywords": [
+      "cuánto es el interés",
+      "intereses del préstamo",
+      "cuál es la tasa",
+      "interés mensual",
+      "interés anual",
+      "cómo se calculan los intereses",
+      "interés fijo o variable",
+      "tasa fija",
+      "porcentaje de interés",
+      "pago de intereses"
+    ],
     "tipo": "Condiciones financieras",
     "respuesta": "Las tasas de interés son fijas y se calculan sobre el saldo de la deuda. Esto significa que a medida que pagás, los intereses disminuyen. Podés hacer abonos extraordinarios o cancelar tu préstamo sin penalizaciones."
   },
   {
     "id": "monto-maximo-minimo",
     "pregunta": "¿Cuál es el monto mínimo o máximo que se puede solicitar?",
-    "keywords": ["monto máximo", "monto mínimo", "mínimo", "máximo"],
+    "keywords": [
+      "cuánto prestan",
+      "límite del préstamo",
+      "valor mínimo del crédito",
+      "valor máximo del crédito",
+      "cuál es el rango de préstamo",
+      "mínimo para solicitar",
+      "monto máximo permitido",
+      "crédito más alto disponible",
+      "préstamo más bajo posible"
+    ],
     "tipo": "Condiciones de crédito",
     "respuesta": "Para más información sobre los montos disponibles de crédito, podés ingresar a https://www.instacredit.com/prestamos/"
   },
   {
     "id": "refinanciamiento",
     "pregunta": "¿Puedo refinanciar mi préstamo?",
-    "keywords": ["refinanciar", "necesito refinanciar", "refinanciación"],
+    "keywords": [
+      "quiero refinanciar",
+      "refinanciar deuda",
+      "reestructurar préstamo",
+      "extender plazo del crédito",
+      "refinanciar mi saldo",
+      "nueva negociación",
+      "modificar condiciones del crédito",
+      "opciones de refinanciación",
+      "cambiar mi plan de pago",
+      "necesito ayuda con mi crédito actual"
+    ],
     "tipo": "Opciones de crédito",
     "respuesta": "Podés enviar tus datos por privado para que consultemos tu caso con el departamento encargado. Con gusto te orientaremos."
   },
   {
     "id": "credito-vehiculo",
     "pregunta": "¿Puedo solicitar un crédito para moto o carro?",
-    "keywords": ["quiero una moto", "necesito un carro", "crédito para vehículo", "necesito vehículo", "carro", "moto"],
+    "keywords": [
+      "quiero crédito para vehículo",
+      "préstamo para moto",
+      "necesito carro",
+      "financiar auto",
+      "puedo pedir crédito para carro",
+      "me ayudan con un vehículo",
+      "quiero comprar carro",
+      "financiar transporte",
+      "préstamo automotriz",
+      "cómo obtener moto financiada"
+    ],
     "tipo": "Crédito para vehículo",
     "respuesta": "Claro que sí. Para más información podés llamar o escribir al 7203-3834 para ser atendido por un asesor."
   },
   {
     "id": "gastos-tramite",
     "pregunta": "¿Cobran por trámites o solicitan pagos por adelantado?",
-    "keywords": ["dinero adelantado", "trámite", "piden dinero", "pagos previos", "cobro de trámite"],
+    "keywords": [
+      "me están pidiendo dinero",
+      "pago antes del crédito",
+      "cobran por tramitar",
+      "adelanto para préstamo",
+      "piden dinero antes",
+      "me cobran antes de aprobar",
+      "es normal pagar antes",
+      "fraude crédito",
+      "trámite con cobro anticipado",
+      "me pidieron plata antes"
+    ],
     "tipo": "Política de seguridad",
     "respuesta": "Instacredit nunca te solicitará dinero ni pagos previos antes de la aprobación de tu crédito. Tené cuidado con fraudes."
   },
   {
     "id": "quien-aplica",
     "pregunta": "¿Qué personas pueden aplicar a un crédito?",
-    "keywords": ["quiénes aplican", "qué personas aplican", "aplican a crédito"],
+    "keywords": [
+      "quién puede pedir préstamo",
+      "aplican asalariados",
+      "si soy independiente aplico",
+      "pensionado puede solicitar",
+      "personas que califican",
+      "tipo de solicitantes",
+      "perfil para crédito",
+      "puedo aplicar",
+      "quién califica",
+      "necesito saber si aplico"
+    ],
     "tipo": "Perfil del solicitante",
     "respuesta": "Pueden aplicar personas asalariadas, independientes y pensionadas que cumplan con los requisitos correspondientes. Para más detalles ingresá a https://www.instacredit.com/prestamos/"
+  },
+  {
+    "id": "carta-descargo",
+    "pregunta": "Quiero una carta de descargo",
+    "tipo": "Cobros",
+    "keywords": [
+      "carta de descargo",
+      "necesito carta de descargo",
+      "solicitar descargo",
+      "quiero justificante",
+      "documento para descargo",
+      "descargo por pago",
+      "comprobante para aclaración",
+      "carta para aclarar situación"
+    ],
+    "respuesta": "Podemos ayudarte con la gestión de tu carta de descargo. Por favor, comunicate con nuestro equipo especializado al 2211-6868 para recibir atención personalizada."
+  },
+  {
+    "id": "medios-de-pago",
+    "pregunta": "Medios de pago",
+    "tipo": "Cobros",
+    "keywords": [
+      "formas de pago",
+      "cómo pagar",
+      "medios disponibles para pagar",
+      "opciones de pago",
+      "dónde puedo pagar",
+      "canales de pago",
+      "formas de cancelar",
+      "cuáles son los métodos de pago"
+    ],
+    "respuesta": "Para más información sobre nuestros medios de pago, podés ingresar directamente en: https://www.instacredit.com/medios_de_pago/"
+  },
+  {
+    "id": "arreglo-pago",
+    "pregunta": "Necesito arreglo de pago / voy atrasado que hago",
+    "tipo": "Cobros",
+    "keywords": [
+      "arreglo de pago",
+      "plan de pago",
+      "estoy atrasado",
+      "me atrasé con el crédito",
+      "qué hacer si debo",
+      "no he pagado",
+      "tengo cuotas vencidas",
+      "quiero ponerme al día",
+      "necesito pagar lo pendiente"
+    ],
+    "respuesta": "Sabemos que pueden surgir imprevistos. Para ayudarte a encontrar una solución con tu crédito, te invitamos a llamar al 2211-6868 y hablar con uno de nuestros asesores."
+  },
+  {
+    "id": "reportar-pago",
+    "pregunta": "Quiero reportar un pago",
+    "tipo": "Cobros",
+    "keywords": [
+      "reportar pago",
+      "avisar que pagué",
+      "ya pagué",
+      "informar pago",
+      "confirmar transferencia",
+      "envié el pago",
+      "pago realizado",
+      "cómo notifico el pago",
+      "subir comprobante"
+    ],
+    "respuesta": "Podés reportar tu pago fácilmente siguiendo las instrucciones en este enlace: https://www.instacredit.com/medios_de_pago/. Si necesitás asistencia adicional, no dudes en contactarnos al 2211-6868."
+  },
+  {
+    "id": "cuanto-debo",
+    "pregunta": "Cuanto debo",
+    "tipo": "Cobros",
+    "keywords": [
+      "cuánto debo",
+      "quiero saber mi deuda",
+      "saldo pendiente",
+      "cuánto tengo que pagar",
+      "estado de cuenta",
+      "cuotas vencidas",
+      "monto pendiente",
+      "cuál es mi saldo",
+      "deuda total"
+    ],
+    "respuesta": "Para consultar el saldo de tu crédito y resolver cualquier duda sobre tu cuenta, te recomendamos llamar directamente al 2211-6868. Con gusto te ayudaremos."
+  },
+  {
+    "id": "estado-cuenta",
+    "pregunta": "Necesito un estado de cuenta",
+    "tipo": "Cobros",
+    "keywords": [
+      "estado de cuenta",
+      "quiero ver mi estado de cuenta",
+      "resumen de pagos",
+      "movimientos de mi crédito",
+      "detalle de cuenta",
+      "cómo ver mi cuenta",
+      "resumen financiero",
+      "extracto de cuenta",
+      "informe de deuda"
+    ],
+    "respuesta": "Podemos facilitarte tu estado de cuenta. Solo tenés que comunicarte con nuestro equipo al teléfono 2211-6868 y te atenderemos con gusto."
+  },
+  {
+    "id": "contactar-asesor",
+    "pregunta": "Donde puedo llamar / quiero hablar con un asesor / número",
+    "tipo": "Temas generales",
+    "keywords": [
+      "quiero llamar",
+      "número de teléfono",
+      "cómo hablar con un asesor",
+      "me pueden llamar",
+      "necesito hablar con alguien",
+      "quiero atención telefónica",
+      "número para llamar",
+      "puedo hablar con un asesor"
+    ],
+    "respuesta": "Podés comunicarte con uno de nuestros asesores llamando al 2211-6868. Estaremos encantados de ayudarte directamente por esa vía."
+  },
+  {
+    "id": "aplicar-empleo",
+    "pregunta": "Quiero aplicar al puesto / empleo",
+    "tipo": "Temas generales",
+    "keywords": [
+      "quiero trabajar con ustedes",
+      "cómo aplicar a un empleo",
+      "bolsa de trabajo",
+      "vacantes disponibles",
+      "empleos en instacredit",
+      "quiero enviar mi currículum",
+      "dónde aplicar a un puesto"
+    ],
+    "respuesta": "Podés conocer nuestras vacantes y aplicar en línea a través del sitio: https://empleos.instacredit.com/"
+  },
+  {
+    "id": "no-contactan-empleo",
+    "pregunta": "Apliqué al puesto / empleo pero no me contactan",
+    "tipo": "Temas generales",
+    "keywords": [
+      "no me han llamado del trabajo",
+      "postulé pero no recibí respuesta",
+      "ya apliqué y no me contactan",
+      "no me llamaron para la entrevista",
+      "seguimiento a solicitud de empleo",
+      "no he tenido respuesta del empleo"
+    ],
+    "respuesta": "Cada aplicación pasa por un proceso de análisis para evaluar si el perfil se ajusta a la vacante. Si tu perfil califica, el equipo de reclutamiento te estará contactando."
+  },
+  {
+    "id": "ubicaciones-sucursales",
+    "pregunta": "Donde se ubican / encuentran / están / sucursales",
+    "tipo": "Temas generales",
+    "keywords": [
+      "dónde están ubicados",
+      "dirección de instacredit",
+      "sucursales disponibles",
+      "oficinas instacredit",
+      "puntos de atención",
+      "dónde queda instacredit",
+      "en qué lugares están",
+      "tiendas instacredit"
+    ],
+    "respuesta": "Podés consultar la lista completa de nuestros centros de negocio aquí: https://www.instacredit.com/centros_de_negocio/"
+  },
+  {
+    "id": "borran-mensajes",
+    "pregunta": "Porque borran mensajes",
+    "tipo": "Temas generales",
+    "keywords": [
+      "me borraron el comentario",
+      "por qué eliminan mensajes",
+      "censuran en redes",
+      "por qué quitaron mi mensaje",
+      "moderación en redes",
+      "me eliminaron publicación",
+      "por qué eliminan comentarios",
+      "me lo borraron"
+    ],
+    "respuesta": "Mantenemos nuestras redes como espacios respetuosos para todos. Por eso, eliminamos mensajes que contengan ofensas, lenguaje inapropiado o faltas de respeto. Si tenés una consulta, con gusto te ayudamos bajo una línea cordial."
+  },
+  {
+    "id": "que-es-instacredit",
+    "pregunta": "Ustedes son Instacredit / que es Instacredit",
+    "tipo": "Temas generales",
+    "keywords": [
+      "ustedes son instacredit",
+      "qué hace instacredit",
+      "qué es instacredit",
+      "a qué se dedican",
+      "instacredit es un banco",
+      "quiénes son ustedes",
+      "institución instacredit"
+    ],
+    "respuesta": "Instacredit es una institución financiera con casa matriz en Costa Rica. Ofrecemos soluciones financieras en Costa Rica, Nicaragua, El Salvador y Panamá."
   }
 ]
