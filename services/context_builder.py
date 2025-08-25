@@ -1,4 +1,5 @@
 import re
+import difflib
 import unicodedata
 from datetime import datetime
 from utils.country_selector import load_faqs, load_direcciones, load_horarios, get_user_country
@@ -17,10 +18,19 @@ def get_centros_url(user_id: str) -> str:
 def normalize_tokens(text: str) -> list:
     text = text.lower()
     text = ''.join(c for c in unicodedata.normalize('NFD', text) if unicodedata.category(c) != 'Mn')
-    text = re.sub(r'[!¡.,;:?¿\\\-]', '', text)
+    text = re.sub(r'[!¡.,;:?¿\-]', '', text)
+    text = re.sub(r'(.)\1{2,}', r'\1', text)
     tokens = text.split()
     tokens = [t[:-1] if t.endswith('s') and len(t) > 3 else t for t in tokens]
     return tokens
+
+
+def tokens_match(user_tokens: list, keyword_tokens: list, threshold: float = 0.85) -> bool:
+    for ut in user_tokens:
+        for kt in keyword_tokens:
+            if difflib.SequenceMatcher(None, ut, kt).ratio() >= threshold:
+                return True
+    return False
 
 
 DIR_SYNONYMS = [
@@ -51,7 +61,7 @@ def buscar_faqs_relevantes(user_msg: str, user_id: str):
         for kw in keyword_list:
             keyword_tokens.extend(normalize_tokens(kw))
 
-        if any(t in user_tokens for t in keyword_tokens):
+        if tokens_match(user_tokens, keyword_tokens):
             respuesta = faq['respuesta']
             # Reemplazar enlaces HTML mal formateados (doble anidamiento)
             respuesta = re.sub(r'<a href="(<a href="[^"]+">[^<]+</a>)"[^>]*>[^<]+</a>', r'\1', respuesta)
@@ -60,6 +70,7 @@ def buscar_faqs_relevantes(user_msg: str, user_id: str):
             relacionados.append(f"{faq['tipo']}: {respuesta}")
 
     return relacionados
+
 
 def buscar_direcciones(user_msg: str, user_id: str):
     direcciones = load_direcciones(user_id)
@@ -72,9 +83,9 @@ def buscar_direcciones(user_msg: str, user_id: str):
         keywords_normalized = d.get("keywords_normalized", [])
 
         keywords_combined = zona_tokens + keywords + keywords_normalized
-        keywords_combined_normalized = set(normalize_tokens(" ".join(keywords_combined)))
+        keywords_combined_normalized = normalize_tokens(" ".join(keywords_combined))
 
-        if any(k in tokens for k in keywords_combined_normalized):
+        if tokens_match(tokens, keywords_combined_normalized):
             relacionados.append(f"{d['zona']}: {d['direccion']}. Waze: <a href=\"{d['waze']}\" target=\"_blank\">Ver en Waze</a>")
 
     if not relacionados:
@@ -82,11 +93,14 @@ def buscar_direcciones(user_msg: str, user_id: str):
         relacionados.append(f"No encontré la dirección que buscas. Podés consultarla en: <a href=\"{url}\" target=\"_blank\">Centros de Negocio</a>")
     return relacionados
 
+
 def buscar_horarios(user_msg: str, user_id: str):
     horarios = load_horarios(user_id)
+    tokens = normalize_tokens(user_msg)
     relacionados = []
     for h in horarios:
-        if h.get('CDN', '').lower() in user_msg:
+        cdn_tokens = normalize_tokens(h.get('CDN', ''))
+        if tokens_match(tokens, cdn_tokens):
             relacionados.append(f"{h['CDN']}: lun-vie {h['Horario lunes a viernes']}, sáb {h['Sabados']}, dom {h['domingos']}")
     if not relacionados:
         url = get_centros_url(user_id)

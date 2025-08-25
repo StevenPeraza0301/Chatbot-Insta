@@ -111,7 +111,8 @@ def call_ollama(messages: list) -> str:
     payload = {
         "model": MODEL_NAME,
         "messages": messages,
-        "stream": False
+        "stream": False,
+        "options": {"temperature": 0}
     }
     try:
         response = requests.post(url, json=payload)
@@ -181,10 +182,9 @@ def build_ollama_messages(user_id: str, context: str, history: list, user_msg: s
         {
             "role": "system",
             "content": (
-                "Eres un asistente útil que responde únicamente en español, "
-                "basado solamente en la información del contexto. "
-                "No debes inventar respuestas ni responder temas generales. "
-                "Si no tienes datos suficientes en el contexto, responde con: "
+                "Eres un asistente útil que responde únicamente en español y solo con los datos proporcionados en el contexto del país correspondiente. "
+                "No debes inventar ni ampliar información. "
+                "Si el contexto no contiene los datos necesarios, responde con: "
                 "'Lo siento, no encontré información para ayudarte con eso. ¿Podés reformular tu pregunta?'"
             )
         },
