@@ -148,6 +148,7 @@ def handle_message(user_id: str, user_msg: str, channel='web') -> str:
     if context.strip() == "":
         fallback = "Lo siento, no encontré información para ayudarte con eso. ¿Podés reformular tu pregunta?"
         log_no_context_question(user_msg, fallback)
+        update_history(user_id, user_msg, fallback)
         return fallback
 
     history, expired = get_user_history(user_id)
@@ -155,7 +156,6 @@ def handle_message(user_id: str, user_msg: str, channel='web') -> str:
     messages = build_ollama_messages(user_id, context, history, user_msg)
 
     bot_msg = call_ollama(messages)
-    update_history(user_id, user_msg, bot_msg)
 
     frases_bloqueo = [
         "soy un asistente de ai", "puedo ayudarte con programación", "no tengo información sobre ti",
@@ -164,9 +164,16 @@ def handle_message(user_id: str, user_msg: str, channel='web') -> str:
     ]
 
     bloqueado = any(f in bot_msg.lower() for f in frases_bloqueo)
-    if bloqueado or "no encontré información para ayudarte" in bot_msg.lower():
+    if (
+        bloqueado
+        or "no encontré información para ayudarte" in bot_msg.lower()
+        or bot_msg.strip() == ""
+        or bot_msg.strip().lower() == "lo siento, no recibí respuesta."
+    ):
         log_no_context_question(user_msg, bot_msg.strip())
         bot_msg = "Lo siento, no encontré información para ayudarte con eso. ¿Podés reformular tu pregunta?"
+
+    update_history(user_id, user_msg, bot_msg)
 
     if channel == 'web':
         bot_msg = enrich_links(bot_msg)
