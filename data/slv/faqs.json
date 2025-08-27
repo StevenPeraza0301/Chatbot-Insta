@@ -11,11 +11,15 @@
       "cómo solicitar crédito",
       "qué necesito para pedir préstamo",
       "condiciones mínimas",
-      "ingreso requerido"
+      "ingreso requerido",
+      "documentos necesarios",
+      "edad mínima crédito",
+      "solicitar préstamo",
+      "aplicar crédito"
     ],
     "respuestas": [
       "Para solicitar tu crédito debés ser mayor de 21 años y contar con ingresos comprobables desde $450. Completá el formulario en https://www.instacredit.sv/prestamos/ o escribinos por WhatsApp: wa.me/50360710219.",
-      "Para solicitar tu crédito debés ser mayor de 21 años y contar con ingresos comprobables desde $450. Completá el formulario en https://www.instacredit.sv/prestamos/ o escribinos por WhatsApp: wa.me/50360710219."
+      "Los requisitos básicos son: ser mayor de 21 años, tener ingresos comprobables desde $450 y presentar la documentación solicitada. Podés iniciar tu solicitud en https://www.instacredit.sv/prestamos/ o contactarnos vía WhatsApp: wa.me/50360710219."
     ],
     "acciones": [
       {
@@ -48,11 +52,17 @@
       "tengo negocio propio",
       "crédito para negocio",
       "cómo aplicar como comerciante",
-      "requisitos si tengo empresa"
+      "requisitos si tengo empresa",
+      "trabajo por cuenta propia",
+      "autónomo",
+      "microempresa",
+      "pequeña empresa",
+      "negocio familiar",
+      "actividad comercial"
     ],
     "respuestas": [
       "Para aplicar siendo independiente, debés tener al menos 25 años y tu negocio debe tener mínimo 18 meses de operación. Podés llenar el formulario en https://www.instacredit.sv/prestamos/ o escribir a wa.me/50360710219.",
-      "Para aplicar siendo independiente, debés tener al menos 25 años y tu negocio debe tener mínimo 18 meses de operación. Podés llenar el formulario en https://www.instacredit.sv/prestamos/ o escribir a wa.me/50360710219."
+      "Los requisitos para independientes son: edad mínima de 25 años, negocio con al menos 18 meses de funcionamiento y documentación que compruebe la actividad comercial. Iniciá tu proceso en https://www.instacredit.sv/prestamos/ o consultanos por WhatsApp: wa.me/50360710219."
     ],
     "acciones": [
       {
@@ -85,16 +95,21 @@
       "nuevo emprendimiento",
       "financiar mi idea",
       "abrir un local",
-      "soy emprendedor"
+      "soy emprendedor",
+      "iniciar empresa",
+      "startup",
+      "nuevo proyecto",
+      "capital semilla",
+      "financiamiento inicial"
     ],
     "respuestas": [
-      "Actualmente no ofrecemos créditos para iniciar emprendimientos. Para conocer otras opciones, podés visitar https://www.instacredit.sv/prestamos/ o escribirnos al WhatsApp wa.me/50360710219.",
-      "Por ahora no ofrecemos créditos para iniciar emprendimientos. Para conocer otras opciones, podés visitar https://www.instacredit.sv/prestamos/ o escribirnos al WhatsApp wa.me/50360710219."
+      "Actualmente no ofrecemos créditos para iniciar emprendimientos nuevos. Nuestros productos están dirigidos a negocios con operación establecida. Para conocer otras opciones disponibles, podés visitar https://www.instacredit.sv/prestamos/ o escribirnos al WhatsApp wa.me/50360710219.",
+      "Por el momento no contamos con productos para emprendimientos que recién inician. Necesitamos que el negocio tenga un historial de operación. Te invitamos a revisar nuestras opciones en https://www.instacredit.sv/prestamos/ o consultarnos vía WhatsApp: wa.me/50360710219."
     ],
     "acciones": [
       {
         "tipo": "link",
-        "label": "Solicitar crédito",
+        "label": "Ver productos disponibles",
         "url": "https://www.instacredit.sv/prestamos/"
       },
       {
@@ -121,11 +136,16 @@
       "soy jubilado",
       "quiero crédito con pensión",
       "edad mínima para pensionado",
-      "requisitos para jubilados"
+      "requisitos para jubilados",
+      "tercera edad",
+      "adulto mayor",
+      "pensión ISSS",
+      "AFP",
+      "retiro laboral"
     ],
     "respuestas": [
-      "Debés tener mínimo 55 años, constancia de pensión y un recibo de agua o luz no mayor a 30 días. Podés solicitar en https://www.instacredit.sv/prestamos/ o contactarnos por WhatsApp wa.me/50360710219.",
-      "Debés tener mínimo 55 años, constancia de pensión y un recibo de agua o luz no mayor a 30 días. Podés solicitar en https://www.instacredit.sv/prestamos/ o contactarnos por WhatsApp wa.me/50360710219."
+      "Para pensionados y jubilados, los requisitos son: tener mínimo 55 años, presentar constancia de pensión vigente y un recibo de agua o luz no mayor a 30 días. Podés solicitar en https://www.instacredit.sv/prestamos/ o contactarnos por WhatsApp wa.me/50360710219.",
+      "Si sos pensionado o jubilado necesitás: edad mínima de 55 años, constancia actualizada de pensión y comprobante de domicilio (recibo de servicios básicos no mayor a 30 días). Iniciá tu solicitud en https://www.instacredit.sv/prestamos/ o escribinos a wa.me/50360710219."
     ],
     "acciones": [
       {
@@ -157,11 +177,15 @@
       "uso remesas",
       "recibo remesas",
       "crédito con dinero del exterior",
-      "ayuda del extranjero"
+      "ayuda del extranjero",
+      "familiares en Estados Unidos",
+      "dinero desde afuera",
+      "transferencias internacionales",
+      "dólares del exterior"
     ],
     "respuestas": [
-      "Sí, tenemos crédito para personas que reciben remesas. Ingresá a https://www.instacredit.sv/prestamos/ o escribinos a wa.me/50360710219 para más información.",
-      "Sí. tenemos crédito para personas que reciben remesas. Ingresá en https://www.instacredit.sv/prestamos/ o escribinos a wa.me/50360710219 para más información."
+      "¡Sí! Tenemos productos de crédito especiales para personas que reciben remesas familiares. Las remesas son consideradas como comprobante de ingresos para tu solicitud. Ingresá a https://www.instacredit.sv/prestamos/ o escribinos a wa.me/50360710219 para más información detallada.",
+      "Por supuesto, aceptamos remesas como fuente de ingresos para tu crédito. Contamos con productos diseñados especialmente para personas que reciben ayuda económica del exterior. Consultá más detalles en https://www.instacredit.sv/prestamos/ o contactanos vía WhatsApp: wa.me/50360710219."
     ],
     "acciones": [
       {
@@ -193,11 +217,16 @@
       "dicom",
       "estoy manchado",
       "revisión de crédito",
-      "consultan buró"
+      "consultan buró",
+      "central de riesgo",
+      "antecedentes crediticios",
+      "historial de pagos",
+      "reporte crediticio",
+      "score crediticio"
     ],
     "respuestas": [
-      "Sí, validamos el récord crediticio como parte del análisis de solicitud. Es un paso estándar en todos nuestros procesos.",
-      "Sí. validamos el récord crediticio como parte del análisis de solicitud. Es un paso estándar en todos nuestros procesos."
+      "Sí, como parte del proceso de evaluación validamos el récord crediticio en las centrales de riesgo correspondientes. Este es un procedimiento estándar que aplicamos a todas las solicitudes para garantizar un análisis responsable del crédito.",
+      "Efectivamente, revisamos el historial crediticio como parte de nuestro análisis de riesgo. Esta consulta nos permite evaluar tu perfil crediticio y ofrecerte las mejores condiciones posibles. Es un paso estándar en todos nuestros procesos de aprobación."
     ],
     "acciones": [
       {
@@ -224,16 +253,21 @@
       "interés mensual",
       "cómo se calculan los intereses",
       "cuánto cobran de intereses",
-      "interés fijo"
+      "interés fijo",
+      "porcentaje de interés",
+      "costo financiero",
+      "TEA",
+      "TEM",
+      "interés sobre saldo"
     ],
     "respuestas": [
-      "Nuestras tasas son fijas y se calculan sobre el saldo de la deuda. A medida que pagás, el interés disminuye. Además, podés abonar extra o cancelar sin penalizaciones.",
-      "Nuestras tasas son fijas y se calculan sobre el saldo de la deuda. A medida que pagás, el interés disminuye. Además, podés abonar extra o cancelar sin penalizaciones."
+      "Trabajamos con tasas de interés fijas que se calculan únicamente sobre el saldo pendiente de tu deuda. Esto significa que a medida que realizás tus pagos, el interés va disminuyendo automáticamente. Además, tenés la flexibilidad de realizar abonos extraordinarios o cancelar anticipadamente sin penalizaciones.",
+      "Nuestras tasas son fijas y se aplican sobre el saldo remanente de la deuda, no sobre el monto original. Esta modalidad te beneficia porque cada pago reduce tanto el capital como los intereses futuros. También podés hacer pagos adicionales cuando querás, sin multas ni restricciones."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Consultar tasas específicas",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFCu%C3%A1nto%20es%20la%20tasa%20de%20inter%C3%A9s%20/%20c%C3%B3mo%20funciona%20la%20tasa%3F"
       }
     ],
@@ -255,16 +289,20 @@
       "monto mínimo de crédito",
       "monto máximo préstamo",
       "rango de préstamo",
-      "límite de crédito"
+      "límite de crédito",
+      "cuánto me pueden prestar",
+      "cantidad disponible",
+      "capital máximo",
+      "suma mínima"
     ],
     "respuestas": [
-      "Los montos pueden variar según el perfil. Ingresá a https://www.instacredit.sv/prestamos/ y completá el formulario para recibir información personalizada.",
-      "Los montos pueden variar según el perfil. Ingresá en https://www.instacredit.sv/prestamos/ y completá el formulario para recibir información personalizada."
+      "Los montos de crédito varían según tu perfil financiero, ingresos y capacidad de pago. Para conocer el monto específico que podés obtener, ingresá a https://www.instacredit.sv/prestamos/ y completá el formulario de evaluación. Recibirás una respuesta personalizada con las condiciones que mejor se adapten a tu situación.",
+      "El monto que podés solicitar depende de varios factores como tus ingresos, historial crediticio y perfil financiero. Te recomendamos llenar la solicitud en https://www.instacredit.sv/prestamos/ donde obtendrás una evaluación personalizada con el monto exacto disponible para vos."
     ],
     "acciones": [
       {
         "tipo": "link",
-        "label": "Solicitar crédito",
+        "label": "Evaluar mi monto",
         "url": "https://www.instacredit.sv/prestamos/"
       },
       {
@@ -291,16 +329,20 @@
       "necesito refinanciar",
       "reestructurar crédito",
       "ajustar pagos",
-      "modificar plan de pagos"
+      "modificar plan de pagos",
+      "renegociar deuda",
+      "cambiar condiciones",
+      "nuevo plazo",
+      "reducir cuota"
     ],
     "respuestas": [
-      "Para consultar opciones de refinanciamiento, comunicate por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 y con gusto analizamos tu caso.",
-      "Para consultar opciones de refinanciamiento, comunicate por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 y con gusto analizamos tu caso."
+      "Para evaluar opciones de refinanciamiento de tu crédito actual, necesitamos revisar tu situación específica. Comunicate por WhatsApp wa.me/50360710219 o llamanos al 2304-2100, donde uno de nuestros asesores analizará tu caso y te presentará las alternativas disponibles.",
+      "El refinanciamiento puede ser una excelente opción para mejorar las condiciones de tu crédito. Te invitamos a contactarnos vía WhatsApp wa.me/50360710219 o al teléfono 2304-2100 para que podamos estudiar tu perfil y ofrecerte las mejores alternativas de reestructuración."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Solicitar refinanciamiento",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20/%20Necesito%20refinanciar"
       }
     ],
@@ -322,21 +364,25 @@
       "pagos anticipados",
       "cobro por trámite",
       "dinero antes del crédito",
-      "fraude préstamo"
+      "fraude préstamo",
+      "estafa crédito",
+      "pago por gestión",
+      "comisión adelantada",
+      "depósito previo"
     ],
     "respuestas": [
-      "Instacredit nunca te pedirá dinero ni pagos anticipados antes de aprobar el crédito. Toda la información oficial está en https://www.instacredit.sv/prestamos/.",
-      "Instacredit nunca te pedirá dinero ni pagos anticipados antes de aprobar el crédito. Toda la información oficial está en https://www.instacredit.sv/prestamos/."
+      "⚠️ IMPORTANTE: Instacredit NUNCA solicita dinero ni pagos anticipados antes de aprobar y desembolsar el crédito. Si alguien te pide dinero por adelantado alegando ser de Instacredit, es un fraude. Toda la información oficial y segura está disponible únicamente en https://www.instacredit.sv/prestamos/",
+      "Instacredit NO cobra trámites previos ni solicita pagos adelantados bajo ninguna circunstancia. Si recibiste una solicitud de pago anticipado, NO es de nuestra empresa. Para tu seguridad, solo utiliza nuestros canales oficiales: https://www.instacredit.sv/prestamos/ y WhatsApp wa.me/50360710219."
     ],
     "acciones": [
       {
         "tipo": "link",
-        "label": "Solicitar crédito",
+        "label": "Verificar información oficial",
         "url": "https://www.instacredit.sv/prestamos/"
       },
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Contacto oficial verificado",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFCobran%20por%20tr%C3%A1mites%20/%20piden%20dinero%20adelantado%3F"
       }
     ],
@@ -344,7 +390,7 @@
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
-      "sensible": false
+      "sensible": true
     }
   },
   {
@@ -358,21 +404,24 @@
       "quién califica",
       "perfil del solicitante",
       "pensionado aplica",
-      "independiente puede aplicar"
+      "independiente puede aplicar",
+      "empleado puede aplicar",
+      "tipos de clientes",
+      "segmentos atendidos"
     ],
     "respuestas": [
-      "Pueden aplicar personas asalariadas, independientes y pensionadas. Más detalles en https://www.instacredit.sv/prestamos/.",
-      "Pueden aplicar personas asalariadas, independientes y pensionadas. Más detalles en https://www.instacredit.sv/prestamos/."
+      "Nuestros productos de crédito están disponibles para tres perfiles principales: personas asalariadas (empleados), trabajadores independientes (comerciantes y profesionales independientes) y pensionados/jubilados. Cada segmento tiene requisitos específicos adaptados a su situación. Conocé más detalles en https://www.instacredit.sv/prestamos/",
+      "Atendemos a empleados con relación de dependencia, trabajadores independientes con negocios establecidos, y personas pensionadas o jubiladas. Cada perfil cuenta con productos diseñados especialmente para sus necesidades. Revisá toda la información en https://www.instacredit.sv/prestamos/"
     ],
     "acciones": [
       {
         "tipo": "link",
-        "label": "Solicitar crédito",
+        "label": "Ver requisitos por perfil",
         "url": "https://www.instacredit.sv/prestamos/"
       },
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Consultar mi perfil",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFQui%C3%A9nes%20aplican%20/%20Qu%C3%A9%20personas%20aplican%3F"
       }
     ],
@@ -394,16 +443,19 @@
       "documento de descargo",
       "comprobante para aclarar",
       "necesito carta para justificar",
-      "carta para descargo de deuda"
+      "carta para descargo de deuda",
+      "certificado de pagos",
+      "comprobante de cancelación",
+      "documento liberatorio"
     ],
     "respuestas": [
-      "Podemos ayudarte con eso. Escribinos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 y con gusto trasladamos tu solicitud al área correspondiente.",
-      "Podemos ayudarte con eso. Escribinos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 y con gusto trasladamos tu solicitud al área correspondiente."
+      "Podemos gestionar tu carta de descargo sin problema. Para procesar tu solicitud de manera adecuada, escribinos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100. Nuestro equipo trasladará tu requerimiento al área correspondiente y te informará sobre los tiempos de entrega.",
+      "Con gusto te ayudamos con la carta de descargo que necesitás. Contactanos vía WhatsApp wa.me/50360710219 o al teléfono 2304-2100 para iniciar el trámite. Nuestros asesores te orientarán sobre el proceso y la documentación requerida."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Solicitar carta de descargo",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20una%20carta%20de%20descargo"
       }
     ],
@@ -425,21 +477,25 @@
       "formas de pago",
       "dónde puedo pagar",
       "opciones para pagar",
-      "canales de pago disponibles"
+      "canales de pago disponibles",
+      "transferencia bancaria",
+      "pago en línea",
+      "efectivo",
+      "tarjeta"
     ],
     "respuestas": [
-      "Podés consultar nuestros medios de pago en https://www.instacredit.sv/medios_de_pago/. Ahí encontrás todas las opciones para cancelar tu crédito de forma segura.",
-      "Podés consultar nuestros medios de pago en https://www.instacredit.sv/medios_de_pago/. Ahí encontrás todas las opciones para cancelar tu crédito de forma segura."
+      "Tenemos múltiples opciones para que pagues tu crédito de forma cómoda y segura. Podés consultar todos nuestros medios de pago disponibles, horarios y instrucciones detalladas en https://www.instacredit.sv/medios_de_pago/ Ahí encontrarás información completa sobre transferencias, pagos en línea y otras alternativas.",
+      "Para tu comodidad, ofrecemos diversos canales de pago seguros y confiables. Visitá https://www.instacredit.sv/medios_de_pago/ donde encontrarás todas las opciones disponibles con sus respectivas instrucciones paso a paso para realizar tu pago de manera exitosa."
     ],
     "acciones": [
       {
         "tipo": "link",
-        "label": "Medios de pago",
-        "url": "https://www.instacredit.sv/medios_de_pago/."
+        "label": "Ver medios de pago",
+        "url": "https://www.instacredit.sv/medios_de_pago/"
       },
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Ayuda con pagos",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Medios%20de%20pago"
       }
     ],
@@ -461,16 +517,20 @@
       "pagar deuda vencida",
       "estoy atrasado",
       "me atrasé con las cuotas",
-      "plan de pago"
+      "plan de pago",
+      "dificultades de pago",
+      "convenio de pago",
+      "reprogramar pagos",
+      "cuotas vencidas"
     ],
     "respuestas": [
-      "Queremos ayudarte a encontrar una solución. Contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para revisar tu caso con un asesor.",
-      "Queremos ayudarte a encontrar una solución. Contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para revisar tu caso con un asesor."
+      "Entendemos que a veces pueden surgir dificultades financieras y queremos ayudarte a encontrar la mejor solución. Comunicate por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para que uno de nuestros asesores especializados revise tu situación particular y te presente las opciones de arreglo de pago disponibles.",
+      "Estamos aquí para apoyarte cuando tengas dificultades con tus pagos. Nuestro equipo está capacitado para encontrar alternativas que se adapten a tu situación actual. Contactanos vía WhatsApp wa.me/50360710219 o al teléfono 2304-2100 y trabajemos juntos en una solución."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Solicitar arreglo de pago",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Necesito%20arreglo%20de%20pago%20/%20voy%20atrasado%20que%20hago"
       }
     ],
@@ -478,7 +538,7 @@
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
-      "sensible": false
+      "sensible": true
     }
   },
   {
@@ -492,21 +552,24 @@
       "confirmar pago",
       "ya pagué",
       "reportar transferencia",
-      "enviar comprobante"
+      "enviar comprobante",
+      "notificar pago realizado",
+      "informar pago",
+      "subir voucher"
     ],
     "respuestas": [
-      "Podés reportar tu pago directamente en https://www.instacredit.sv/medios_de_pago/ o consultarnos por WhatsApp wa.me/50360710219 si necesitás asistencia.",
-      "Podés reportar tu pago directamente en https://www.instacredit.sv/medios_de_pago/ o consultarnos por WhatsApp wa.me/50360710219 si necesitás asistencia."
+      "Para reportar tu pago de manera rápida y efectiva, podés hacerlo directamente desde nuestra página https://www.instacredit.sv/medios_de_pago/ donde encontrarás las instrucciones para notificar tu pago. Si necesitás asistencia personalizada o tenés alguna duda sobre el proceso, escribinos por WhatsApp wa.me/50360710219.",
+      "Es muy fácil reportar tu pago. Ingresá a https://www.instacredit.sv/medios_de_pago/ y seguí las instrucciones para enviar la confirmación de tu pago. Si preferís ayuda directa de nuestros asesores, contactanos por WhatsApp wa.me/50360710219."
     ],
     "acciones": [
       {
         "tipo": "link",
-        "label": "Medios de pago",
+        "label": "Reportar mi pago",
         "url": "https://www.instacredit.sv/medios_de_pago/"
       },
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Ayuda para reportar",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20reportar%20un%20pago"
       }
     ],
@@ -528,16 +591,20 @@
       "cuánto tengo que pagar",
       "estado de cuenta",
       "monto que debo",
-      "deuda actual"
+      "deuda actual",
+      "balance pendiente",
+      "cuánto me falta",
+      "saldo a la fecha",
+      "deuda total"
     ],
     "respuestas": [
-      "Para consultar tu saldo actual, escribinos a wa.me/50360710219 o llamanos al 2304-2100 y con gusto te ayudamos.",
-      "Para consultar tu saldo actual, escribinos a wa.me/50360710219 o llamanos al 2304-2100 y con gusto te ayudamos."
+      "Para consultar tu saldo actual y obtener información detallada sobre tu deuda, escribinos a wa.me/50360710219 o llamanos al 2304-2100. Nuestros asesores te proporcionarán la información exacta y actualizada de tu cuenta, incluyendo capital pendiente, intereses y cualquier cargo adicional.",
+      "Con gusto te ayudamos a conocer el estado actual de tu cuenta. Comunicate vía WhatsApp wa.me/50360710219 o al teléfono 2304-2100 donde te brindaremos el detalle completo de tu saldo pendiente y las próximas fechas de pago."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Consultar mi saldo",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Cu%C3%A1nto%20debo"
       }
     ],
@@ -559,16 +626,20 @@
       "estado de crédito",
       "quiero estado de cuenta",
       "ver mis pagos",
-      "detalle de pagos"
+      "detalle de pagos",
+      "historial de pagos",
+      "movimientos de cuenta",
+      "certificado de pagos",
+      "extracto de cuenta"
     ],
     "respuestas": [
-      "Con gusto podemos gestionarlo. Contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para solicitar tu estado de cuenta.",
-      "Con gusto podemos gestionarlo. Contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para solicitar tu estado de cuenta."
+      "Podemos generar tu estado de cuenta con todo el detalle de pagos realizados, saldo pendiente y movimientos de tu crédito. Para solicitarlo, contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100. Te indicaremos los tiempos de entrega y la forma en que recibirás el documento.",
+      "Con mucho gusto gestionamos tu estado de cuenta detallado. Escribinos a wa.me/50360710219 o llamanos al 2304-2100 para procesar tu solicitud. Nuestro equipo te proporcionará un estado de cuenta completo con toda la información de tu crédito."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Solicitar estado de cuenta",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Necesito%20un%20estado%20de%20cuenta"
       }
     ],
@@ -591,16 +662,20 @@
       "teléfono de instacredit",
       "cómo comunicarme",
       "asesoría directa",
-      "whatsapp"
+      "whatsapp",
+      "atención al cliente",
+      "servicio al cliente",
+      "línea telefónica",
+      "contacto directo"
     ],
     "respuestas": [
-      "Podés llamarnos al 2304-2100 o escribirnos por WhatsApp a wa.me/50360710219. Estamos para ayudarte.",
-      "Podés llamarnos al 2304-2100 o escribirnos por WhatsApp a wa.me/50360710219. Estamos para ayudarte."
+      "Nuestro equipo de atención al cliente está disponible para ayudarte. Podés comunicarte de las siguientes maneras: llamanos al 2304-2100 en horario de atención, o escribinos por WhatsApp a wa.me/50360710219 donde tendrás respuesta más rápida. Estamos listos para resolver todas tus consultas.",
+      "Contamos con múltiples canales para brindarte la mejor atención: teléfono 2304-2100 para llamadas directas, y WhatsApp wa.me/50360710219 para consultas rápidas y efectivas. Nuestros asesores están preparados para ayudarte con cualquier tema relacionado con tu crédito."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Contactar por WhatsApp",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20D%C3%B3nde%20puedo%20llamar%20/%20hablar%20con%20un%20asesor%20/%20WhatsApp"
       }
     ],
@@ -622,21 +697,25 @@
       "postular a empleo",
       "cómo aplicar",
       "quiero trabajar con ustedes",
-      "empleos disponibles"
+      "empleos disponibles",
+      "vacantes",
+      "oportunidades laborales",
+      "recursos humanos",
+      "bolsa de trabajo"
     ],
     "respuestas": [
-      "Podés ver nuestras vacantes y aplicar desde https://empleos.instacredit.com/. Ahí encontrarás toda la información actualizada.",
-      "Podés ver nuestras vacantes y aplicar desde https://empleos.instacredit.com/. Ahí encontrarás toda la información actualizada."
+      "¡Nos alegra que quieras formar parte del equipo Instacredit! Podés explorar todas nuestras oportunidades laborales actuales y postularte directamente desde https://empleos.instacredit.com/ donde encontrarás información detallada sobre cada posición, requisitos y beneficios.",
+      "Buscamos constantemente talento para sumar a nuestro equipo. Te invitamos a revisar nuestras vacantes disponibles en https://empleos.instacredit.com/ donde podrás aplicar a las posiciones que mejor se adapten a tu perfil profesional."
     ],
     "acciones": [
       {
         "tipo": "link",
-        "label": "Ver vacantes",
-        "url": "https://empleos.instacredit.com/."
+        "label": "Ver oportunidades laborales",
+        "url": "https://empleos.instacredit.com/"
       },
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Consultas sobre empleo",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20aplicar%20al%20puesto%20/%20empleo"
       }
     ],
@@ -657,16 +736,19 @@
       "no recibí respuesta del empleo",
       "apliqué y no me llaman",
       "esperando respuesta de trabajo",
-      "no me han contactado por el puesto"
+      "no me han contactado por el puesto",
+      "seguimiento aplicación empleo",
+      "proceso de selección",
+      "recursos humanos no responde"
     ],
     "respuestas": [
-      "Cada solicitud pasa por un análisis del perfil del candidato. Si calificás para la vacante, el equipo de selección te estará contactando según el avance del proceso.",
-      "Cada solicitud pasa por un análisis del perfil del candidato. Si calificás para la vacante, el equipo de selección te estará contactando según el avance del proceso."
+      "Comprendemos tu interés por conocer el estado de tu aplicación. Nuestro proceso de selección incluye una evaluación detallada del perfil de cada candidato para asegurar la mejor coincidencia con la posición. Si tu perfil se ajusta a los requisitos de la vacante, el equipo de Recursos Humanos se contactará contigo según los tiempos del proceso de selección.",
+      "Agradecemos tu postulación e interés en formar parte de Instacredit. El proceso de selección requiere tiempo para analizar cuidadosamente cada candidatura. Si cumplís con los requisitos y tu perfil es seleccionado para continuar en el proceso, recibirás contacto del área de selección oportunamente."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Consultar estado de aplicación",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Apliqu%C3%A9%20al%20puesto%20/%20empleo%20pero%20no%20me%20contactan"
       }
     ],
@@ -688,21 +770,25 @@
       "oficinas disponibles",
       "centros de atención",
       "dónde encontrarlos",
-      "ubicación sucursales"
+      "ubicación sucursales",
+      "direcciones",
+      "horarios de atención",
+      "oficinas físicas",
+      "centros de servicio"
     ],
     "respuestas": [
-      "Podés consultar nuestras sucursales en https://www.instacredit.sv/centros_de_negocio/. Ahí encontrás horarios y direcciones actualizadas.",
-      "Podés consultar nuestras sucursales en https://www.instacredit.sv/centros_de_negocio/. Ahí encontrás horarios y direcciones actualizadas."
+      "Contamos con múltiples centros de atención para brindarte servicio personalizado. Podés consultar todas nuestras sucursales, direcciones exactas, horarios de atención y servicios disponibles en cada una visitando https://www.instacredit.sv/centros_de_negocio/ donde encontrarás información siempre actualizada.",
+      "Tenemos presencia en diferentes ubicaciones para estar cerca de vos. Visitá https://www.instacredit.sv/centros_de_negocio/ para conocer la sucursal más conveniente según tu ubicación, con detalles de horarios, direcciones y cómo llegar a cada centro de atención."
     ],
     "acciones": [
       {
         "tipo": "link",
-        "label": "Sucursales",
-        "url": "https://www.instacredit.sv/centros_de_negocio/."
+        "label": "Buscar sucursales",
+        "url": "https://www.instacredit.sv/centros_de_negocio/"
       },
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Consultar ubicaciones",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20D%C3%B3nde%20se%20ubican%20/%20est%C3%A1n%20/%20sucursales"
       }
     ],
@@ -723,16 +809,19 @@
       "me eliminaron comentarios",
       "moderación en redes",
       "por qué me borran",
-      "quitaron mi publicación"
+      "quitaron mi publicación",
+      "censura redes sociales",
+      "moderación contenido",
+      "políticas redes sociales"
     ],
     "respuestas": [
-      "Buscamos mantener un ambiente respetuoso en nuestras redes. Por eso se moderan mensajes con ofensas o lenguaje inapropiado. Si necesitás ayuda, te atendemos con gusto en los canales oficiales.",
-      "Buscamos mantener un ambiente respetuoso en nuestras redes. Por eso se moderan mensajes con ofensas o lenguaje inapropiado. Si necesitás ayuda, te atendemos con gusto en los canales oficiales."
+      "Mantenemos una política de moderación en nuestras redes sociales para crear un ambiente respetuoso y constructivo para todos nuestros seguidores. Se moderan comentarios que contengan lenguaje ofensivo, spam o contenido inapropiado. Si necesitás ayuda o tenés alguna consulta específica, te invitamos a utilizar nuestros canales oficiales de atención.",
+      "Nuestro objetivo es mantener un espacio digital seguro y respetuoso para toda la comunidad. Por esta razón, aplicamos moderación a contenido que no cumple con nuestras políticas comunitarias. Para cualquier consulta o asistencia que requieras, estamos disponibles en nuestros canales oficiales de atención al cliente."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Contacto oficial",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFPor%20qu%C3%A9%20borran%20mensajes%3F"
       }
     ],
@@ -753,16 +842,20 @@
       "qué es instacredit",
       "a qué se dedican",
       "institución financiera",
-      "instacredit el salvador"
+      "instacredit el salvador",
+      "empresa de créditos",
+      "fintech",
+      "préstamos centroamérica",
+      "historia instacredit"
     ],
     "respuestas": [
-      "Instacredit es una institución financiera con casa matriz en Costa Rica. Operamos en El Salvador, Nicaragua, Costa Rica y Panamá, brindando soluciones de crédito accesibles.",
-      "Instacredit es una institución financiera con casa matriz en Costa Rica. Operamos en El Salvador, Nicaragua, Costa Rica y Panamá, brindando soluciones de crédito accesibles."
+      "Instacredit es una institución financiera líder en Centroamérica con casa matriz en Costa Rica. Nos especializamos en soluciones de crédito accesibles y operamos en El Salvador, Nicaragua, Costa Rica y Panamá. Nuestro objetivo es brindar financiamiento ágil y confiable para personas y negocios en la región.",
+      "Somos Instacredit, una empresa financiera establecida que ofrece productos de crédito innovadores en cuatro países de Centroamérica: El Salvador, Nicaragua, Costa Rica y Panamá. Con sede principal en Costa Rica, nos enfocamos en democratizar el acceso al crédito con procesos rápidos y requisitos accesibles."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Conocer más sobre nosotros",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Ustedes%20son%20Instacredit%20/%20Qu%C3%A9%20es%20Instacredit"
       }
     ],
@@ -784,16 +877,19 @@
       "llené el formulario y no pasa nada",
       "nadie me llama",
       "esperando contacto",
-      "me ignoraron"
+      "me ignoraron",
+      "sin respuesta",
+      "no dan seguimiento",
+      "abandono cliente"
     ],
     "respuestas": [
-      "Sentimos los inconvenientes. Si no has recibido respuesta, podés llamarnos al 2304-2100 o escribirnos a wa.me/50360710219 para revisar tu caso.",
-      "Sentimos los inconvenientes. Si no has recibido respuesta, podés llamarnos al 2304-2100 o escribirnos a wa.me/50360710219 para revisar tu caso."
+      "Lamentamos sinceramente esta situación y entendemos tu molestia. No es nuestra intención dejar consultas sin respuesta. Para revisar inmediatamente tu caso y darte el seguimiento que merecés, podés llamarnos al 2304-2100 o escribirnos a wa.me/50360710219. Priorizaremos tu consulta para resolver esta situación.",
+      "Sentimos mucho los inconvenientes causados. Tu experiencia es importante para nosotros y no refleja nuestros estándares de servicio. Te pedimos que nos contactés al 2304-2100 o vía WhatsApp wa.me/50360710219 para que podamos atender tu caso de manera prioritaria y brindarte la respuesta que esperás."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Atención prioritaria",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20No%20contestan%20/%20llen%C3%A9%20la%20solicitud%20y%20no%20recib%C3%AD%20respuesta"
       }
     ],
@@ -801,7 +897,7 @@
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
-      "sensible": false
+      "sensible": true
     }
   },
   {
@@ -815,16 +911,19 @@
       "tasa elevada",
       "cobran mucho",
       "intereses altos",
-      "costoso el crédito"
+      "costoso el crédito",
+      "tasas abusivas",
+      "muy caro",
+      "excesivo el interés"
     ],
     "respuestas": [
-      "Las tasas son fijas y calculadas sobre el saldo, lo que permite que disminuyan conforme pagás. Además, podés abonar sin penalizaciones y acortar tu plazo.",
-      "Las tasas son fijas y calculadas sobre el saldo, lo que permite que disminuyan conforme pagás. Además, podés abonar sin penalizaciones y acortar tu plazo."
+      "Entendemos tu preocupación respecto a las tasas de interés. Te explicamos que nuestras tasas son fijas y se calculan únicamente sobre el saldo pendiente, no sobre el monto original. Esto significa que con cada pago que hacés, los intereses futuros disminuyen automáticamente. Además, tenés la ventaja de poder realizar abonos extraordinarios o cancelar anticipadamente sin penalizaciones, lo que reduce significativamente el costo total del crédito.",
+      "Valoramos tu comentario sobre las tasas. Es importante mencionar que trabajamos con un sistema de interés sobre saldo que beneficia al cliente: mientras más pagás, menos intereses generás. También ofrecemos flexibilidad total para pagos anticipados sin multas. Si querés conocer estrategias para reducir el costo de tu crédito o analizar tu situación específica, con gusto podemos asesorarte."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Asesoría sobre tasas",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Son%20tasas%20muy%20altas%20/%20Cobran%20mucho%20/%20inter%C3%A9s%20alto"
       }
     ],
@@ -832,7 +931,7 @@
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
-      "sensible": false
+      "sensible": true
     }
   },
   {
@@ -845,16 +944,20 @@
       "no me lo aprobaron",
       "rechazaron mi solicitud",
       "me lo negaron",
-      "muchos requisitos"
+      "muchos requisitos",
+      "no califiqué",
+      "no me dieron el crédito",
+      "requisitos excesivos",
+      "solicitud denegada"
     ],
     "respuestas": [
-      "Sabemos que puede ser frustrante. Cada solicitud se evalúa con base en política de riesgo. Si no fue aprobado, podés acercarte a una sucursal y recibir asesoría personalizada.",
-      "Sabemos que puede ser frustrante. Cada solicitud se evalúa con base en política de riesgo. Si no fue aprobado, podés acercarte a una sucursal y recibir asesoría personalizada."
+      "Comprendemos que recibir una respuesta negativa puede ser frustrante. Nuestros procesos de evaluación se basan en políticas de riesgo establecidas para proteger tanto a nuestros clientes como a la empresa. Sin embargo, cada caso es único y las condiciones pueden cambiar. Te recomendamos acercarte a una de nuestras sucursales donde podrás recibir asesoría personalizada y conocer alternativas que se adapten mejor a tu perfil actual.",
+      "Lamentamos que tu solicitud no haya sido aprobada en esta ocasión. Las decisiones se toman con base en análisis objetivos de riesgo crediticio. No obstante, existen diferentes factores que podrían mejorar tu perfil para futuras solicitudes. Te invitamos a visitarnos en una sucursal donde nuestros asesores pueden orientarte sobre los pasos a seguir y las opciones disponibles."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Asesoría personalizada",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Piden%20muchos%20requisitos%20/%20me%20rechazaron%20el%20cr%C3%A9dito"
       }
     ],
@@ -862,7 +965,7 @@
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
-      "sensible": false
+      "sensible": true
     }
   },
   {
@@ -876,16 +979,20 @@
       "mensajes molestos",
       "trato desagradable",
       "me llaman sin parar",
-      "acoso telefónico"
+      "acoso telefónico",
+      "spam llamadas",
+      "molestan mucho",
+      "mal servicio",
+      "asesores groseros"
     ],
     "respuestas": [
-      "Lamentamos cualquier molestia. Estamos mejorando nuestros procesos de atención. Si querés que revisemos tu caso, escribinos a wa.me/50360710219.",
-      "Lamentamos cualquier molestia. Estamos mejorando nuestros procesos de atención. Si querés que revisemos tu caso, escribinos a wa.me/50360710219."
+      "Lamentamos profundamente cualquier molestia o incomodidad que hayas experimentado. Este tipo de situaciones no reflejan nuestros valores ni estándares de servicio al cliente. Estamos comprometidos con mejorar continuamente nuestros procesos de comunicación y capacitación del equipo. Si querés que revisemos tu caso específico y tomemos las medidas correspondientes, escribinos a wa.me/50360710219 e indicá los detalles para investigar y corregir la situación.",
+      "Ofrecemos nuestras más sinceras disculpas por esta experiencia negativa. No es aceptable que nuestros clientes se sientan acosados o mal tratados. Tomamos estos comentarios muy en serio y los utilizamos para fortalecer nuestros protocolos de atención. Te solicitamos que nos proporciones más detalles contactándonos a wa.me/50360710219 para que podamos tomar las acciones correctivas necesarias."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Reportar situación",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Me%20mandan%20muchos%20mensajes%20/%20es%20una%20llamadera%20/%20asesores%20malos"
       }
     ],
@@ -893,7 +1000,7 @@
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
-      "sensible": false
+      "sensible": true
     }
   },
   {
@@ -906,16 +1013,20 @@
       "formulario no carga",
       "error al aplicar",
       "no puedo llenar formulario",
-      "problema para aplicar"
+      "problema para aplicar",
+      "página no funciona",
+      "error técnico",
+      "sitio web falla",
+      "no puedo enviar datos"
     ],
     "respuestas": [
-      "Si tenés problemas con el formulario, escribinos por WhatsApp a wa.me/50360710219 o llamanos al 2304-2100 para ayudarte directamente.",
-      "Si tenés problemas con el formulario, escribinos por WhatsApp a wa.me/50360710219 o llamanos al 2304-2100 para ayudarte directamente."
+      "Lamentamos los inconvenientes técnicos que estás experimentando con nuestro formulario en línea. Para asegurar que puedas completar tu solicitud sin problemas, te ofrecemos asistencia directa. Escribinos por WhatsApp a wa.me/50360710219 o llamanos al 2304-2100 donde nuestros asesores pueden ayudarte a completar la solicitud paso a paso o informarte sobre métodos alternativos.",
+      "Sentimos las dificultades técnicas con el formulario web. Queremos asegurarnos de que tengas acceso a nuestros servicios sin obstáculos. Como alternativa inmediata, contactanos vía WhatsApp wa.me/50360710219 o por teléfono al 2304-2100 donde te guiaremos en el proceso de solicitud de manera directa y personalizada."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Ayuda con formulario",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20No%20me%20deja%20llenar%20el%20formulario"
       }
     ],
@@ -923,7 +1034,7 @@
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
-      "sensible": false
+      "sensible": true
     }
   },
   {
@@ -936,16 +1047,20 @@
       "esto es falso",
       "publicidad engañosa",
       "me mintieron",
-      "no es cierto"
+      "no es cierto",
+      "información falsa",
+      "engaño",
+      "estafa",
+      "no cumplen lo prometido"
     ],
     "respuestas": [
-      "Lamentamos cualquier malentendido. Contanos qué ocurrió y haremos lo posible por ayudarte y aclararlo.",
-      "Lamentamos cualquier malentendido. Contanos qué ocurrió y haremos lo posible por ayudarte y aclararlo."
+      "Tomamos muy en serio cualquier percepción de información inexacta o malentendidos sobre nuestros servicios. La transparencia y honestidad son fundamentales en nuestra relación con los clientes. Nos gustaría conocer específicamente cuál es la situación que te ha generado esta preocupación para poder aclararlo adecuadamente. Contanos qué ocurrió y haremos todo lo posible por resolver cualquier malentendido.",
+      "Lamentamos sinceramente que hayas tenido esta percepción sobre nuestra comunicación. Es muy importante para nosotros mantener información veraz y clara en todos nuestros canales. Te invitamos a compartir los detalles específicos de lo que consideras incorrecto para que podamos investigar, aclarar la situación y tomar las medidas necesarias para evitar futuros malentendidos."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Aclarar información",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Es%20mentira%20lo%20que%20dicen"
       }
     ],
@@ -953,7 +1068,7 @@
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
-      "sensible": false
+      "sensible": true
     }
   },
   {
@@ -966,20 +1081,164 @@
       "esperando aprobación",
       "se tarda mucho",
       "no me responden rápido",
-      "proceso lento"
+      "proceso lento",
+      "mucha espera",
+      "tardan en contestar",
+      "demora excesiva",
+      "tiempo de espera largo"
     ],
     "respuestas": [
-      "Nuestro objetivo es aprobar en minutos, pero a veces pueden surgir retrasos por validación de documentos. Si tu caso demora, escribinos a wa.me/50360710219 para ayudarte.",
-      "Nuestro objetivo es aprobar en minutos, pero a veces pueden surgir retrasos por validación de documentos. Si tu caso demora, escribinos a wa.me/50360710219 para ayudarte."
+      "Entendemos tu frustración por los tiempos de espera, ya que sabemos lo importante que es recibir una respuesta rápida. Nuestro objetivo es aprobar solicitudes en minutos, pero ocasionalmente pueden presentarse demoras debido a procesos de validación adicional de documentos o verificación de información. Si tu caso está tomando más tiempo del esperado, escribinos a wa.me/50360710219 para revisar el estado específico y acelerar el proceso.",
+      "Reconocemos que los tiempos de espera pueden generar ansiedad, especialmente cuando necesitás una respuesta urgente. Aunque nuestro proceso está diseñado para ser ágil, algunas solicitudes requieren verificaciones adicionales que pueden extender los tiempos. Para darle seguimiento prioritario a tu caso y obtener una actualización inmediata, contactanos vía WhatsApp wa.me/50360710219."
     ],
     "acciones": [
       {
         "tipo": "whatsapp",
-        "label": "Hablar con un asesor",
+        "label": "Seguimiento de solicitud",
         "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Demoran%20mucho%20en%20aprobar"
       }
     ],
     "canal_sugerido": "humano_prioritario",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": true
+    }
+  },
+  {
+    "id": "plazos-pago-sv",
+    "pregunta": "¿Cuáles son los plazos de pago disponibles?",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "plazos",
+    "intencion": "consultar_plazos_pago",
+    "keywords": [
+      "plazos disponibles",
+      "tiempo para pagar",
+      "cuotas mensuales",
+      "meses de financiamiento",
+      "términos de pago",
+      "duración del crédito",
+      "período de pago",
+      "opciones de plazo"
+    ],
+    "respuestas": [
+      "Ofrecemos diferentes opciones de plazos para que puedas elegir la que mejor se adapte a tu capacidad de pago. Los plazos específicos disponibles dependen del monto solicitado y tu perfil crediticio. Para conocer las opciones exactas para tu caso, completá el formulario en https://www.instacredit.sv/prestamos/ o consultanos por WhatsApp wa.me/50360710219.",
+      "Contamos con múltiples alternativas de plazo que se ajustan a diferentes necesidades financieras. La disponibilidad de plazos varía según el monto del crédito y tu evaluación crediticia. Te recomendamos iniciar tu solicitud en https://www.instacredit.sv/prestamos/ para recibir información personalizada sobre los plazos disponibles para tu perfil."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Consultar plazos",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Asesoría sobre plazos",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFCu%C3%A1les%20son%20los%20plazos%20de%20pago%20disponibles%3F"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "cancelar-credito-sv",
+    "pregunta": "Quiero cancelar mi crédito completamente",
+    "tipo": "Cobros",
+    "subtipo": "cancelacion_credito",
+    "intencion": "gestionar_cancelar_credito",
+    "keywords": [
+      "cancelar crédito",
+      "pagar todo",
+      "liquidar deuda",
+      "cancelación total",
+      "pago completo",
+      "quitar deuda",
+      "saldar crédito",
+      "pago final"
+    ],
+    "respuestas": [
+      "Excelente decisión cancelar completamente tu crédito. Para obtener el monto exacto de cancelación actualizado a la fecha que desees realizar el pago, contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100. Te proporcionaremos el cálculo detallado y las instrucciones para realizar el pago final sin penalizaciones.",
+      "Nos alegra que quieras cancelar tu crédito por completo. Como nuestras tasas se calculan sobre saldo, es importante obtener una liquidación actualizada. Escribinos a wa.me/50360710219 o llamanos al 2304-2100 para generar tu liquidación exacta con la fecha de pago que prefieras y coordinar el proceso de cancelación."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Solicitar liquidación",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20cancelar%20mi%20cr%C3%A9dito%20completamente"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "segundo-credito-sv",
+    "pregunta": "¿Puedo solicitar un segundo crédito?",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "creditos_adicionales",
+    "intencion": "consultar_segundo_credito",
+    "keywords": [
+      "segundo préstamo",
+      "otro crédito",
+      "crédito adicional",
+      "más dinero",
+      "nueva solicitud",
+      "ampliar crédito",
+      "crédito paralelo",
+      "doble financiamiento"
+    ],
+    "respuestas": [
+      "La posibilidad de acceder a un segundo crédito depende de varios factores como tu historial de pagos con nosotros, capacidad de pago actual y el estado de tu crédito existente. Para evaluar esta opción específicamente en tu caso, te recomendamos contactarnos por WhatsApp wa.me/50360710219 o llamar al 2304-2100 donde analizaremos tu perfil y te informaremos sobre las alternativas disponibles.",
+      "Para solicitar créditos adicionales necesitamos evaluar tu situación crediticia actual, historial de pagos y capacidad financiera. Cada caso se analiza de manera individual considerando factores de riesgo y políticas internas. Comunicate con nosotros vía WhatsApp wa.me/50360710219 o al teléfono 2304-2100 para que podamos revisar las opciones disponibles para tu perfil específico."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Consultar segunda solicitud",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFPuedo%20solicitar%20un%20segundo%20cr%C3%A9dito%3F"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "cambiar-fecha-pago-sv",
+    "pregunta": "¿Puedo cambiar la fecha de pago?",
+    "tipo": "Cobros",
+    "subtipo": "modificacion_fechas",
+    "intencion": "gestionar_cambiar_fecha_pago",
+    "keywords": [
+      "cambiar fecha de pago",
+      "modificar vencimiento",
+      "nueva fecha cuota",
+      "ajustar calendario",
+      "reprogramar pagos",
+      "fecha diferente",
+      "día de pago distinto"
+    ],
+    "respuestas": [
+      "En algunos casos es posible realizar ajustes en las fechas de pago dependiendo de tu situación particular y las políticas vigentes. Para evaluar si tu caso califica para un cambio de fecha y conocer las opciones disponibles, contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 donde revisaremos tu solicitud específica.",
+      "La modificación de fechas de pago está sujeta a evaluación según cada caso particular. Nuestros asesores pueden revisar tu situación y determinar qué alternativas son viables para tu crédito. Te invitamos a escribirnos a wa.me/50360710219 o llamarnos al 2304-2100 para analizar tu solicitud de cambio de fecha."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Solicitar cambio de fecha",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFPuedo%20cambiar%20la%20fecha%20de%20pago%3F"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
     "metadatos": {
       "pais": "SV",
       "lenguaje": "es",
