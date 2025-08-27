@@ -19,7 +19,7 @@ from config import MODEL_NAME
 # ---------------------------------
 # Configuración de umbrales y LLM
 # ---------------------------------
-LLM_THRESHOLD = 0.9  # Usar Mistral solo si la predicción tiene score < 0.9
+LLM_THRESHOLD = 0.6  # Usar Mistral solo si la predicción tiene score < 0.6
 SHOW_INTERPRETATION = True  # Muestra la línea de interpretación basada SOLO en 'pregunta' del dataset
 OLLAMA_URL = "http://127.0.0.1:11434/api/chat"
 
@@ -358,25 +358,27 @@ def handle_message(user_id: str, user_msg: str, channel='web') -> str:
         user_msg, user_id, min_score=0.0
     )
 
+    # Guardamos candidatos para entrenamiento y predicción del último turno
+    ranked = rank_faqs(user_msg, user_id)[:3]
+    alts = [{"faq_id": f.get("id"), "intencion": f.get("intencion"), "score": float(s)} for s, f in ranked]
+    selected = {"faq_id": faq_id, "intencion": intent, "score": float(score)} if faq_id else None
+
+    record_training_sample({
+        "label": "auto" if answer_html and score >= LLM_THRESHOLD else "llm",
+        "user_id": user_id,
+        "country": user_country,
+        "user_msg": user_msg,
+        "selected": selected,
+        "alternatives": alts
+    })
+
+    set_last_prediction(user_id, {
+        "user_msg": user_msg,
+        "selected": selected,
+        "alternatives": alts
+    })
+
     if answer_html and score >= LLM_THRESHOLD:
-        # Guardamos candidatos para entrenamiento
-        ranked = rank_faqs(user_msg, user_id)[:3]
-        alts = [{"faq_id": f.get("id"), "intencion": f.get("intencion"), "score": float(s)} for s, f in ranked]
-
-        record_training_sample({
-            "label": "auto",
-            "user_id": user_id,
-            "country": user_country,
-            "user_msg": user_msg,
-            "selected": {"faq_id": faq_id, "intencion": intent, "score": float(score)},
-            "alternatives": alts
-        })
-        set_last_prediction(user_id, {
-            "user_msg": user_msg,
-            "selected": {"faq_id": faq_id, "intencion": intent, "score": float(score)},
-            "alternatives": alts
-        })
-
         # Interpretación SOLO basada en 'pregunta' del dataset (sin prefijos)
         interpretation = ""
         if SHOW_INTERPRETATION and canon_question:
@@ -390,7 +392,6 @@ def handle_message(user_id: str, user_msg: str, channel='web') -> str:
         return final_msg
 
     # --- Uso de Mistral cuando el score es menor al umbral ---
-    set_last_prediction(user_id, None)
     history, expired = get_user_history(user_id)
     messages = build_ollama_messages(user_id, context, history, user_msg)
     bot_msg = call_ollama(messages)
