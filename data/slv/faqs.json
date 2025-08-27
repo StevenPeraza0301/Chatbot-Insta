@@ -1,0 +1,989 @@
+[
+  {
+    "id": "requisitos-generales-sv",
+    "pregunta": "¿Cuáles son los requisitos / información?",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "requisitos",
+    "intencion": "consultar_requisitos_generales",
+    "keywords": [
+      "requisitos para crédito",
+      "información para préstamo",
+      "cómo solicitar crédito",
+      "qué necesito para pedir préstamo",
+      "condiciones mínimas",
+      "ingreso requerido"
+    ],
+    "respuestas": [
+      "Para solicitar tu crédito debés ser mayor de 21 años y contar con ingresos comprobables desde $450. Completá el formulario en https://www.instacredit.sv/prestamos/ o escribinos por WhatsApp: wa.me/50360710219.",
+      "Para solicitar tu crédito debés ser mayor de 21 años y contar con ingresos comprobables desde $450. Completá el formulario en https://www.instacredit.sv/prestamos/ o escribinos por WhatsApp: wa.me/50360710219."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Solicitar crédito",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFCu%C3%A1les%20son%20los%20requisitos%20/%20informaci%C3%B3n%3F"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "requisitos-independiente-sv",
+    "pregunta": "Requisitos independiente / tengo negocio / soy comerciante",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "requisitos",
+    "intencion": "consultar_requisitos_independiente",
+    "keywords": [
+      "crédito para comerciantes",
+      "soy independiente",
+      "tengo negocio propio",
+      "crédito para negocio",
+      "cómo aplicar como comerciante",
+      "requisitos si tengo empresa"
+    ],
+    "respuestas": [
+      "Para aplicar siendo independiente, debés tener al menos 25 años y tu negocio debe tener mínimo 18 meses de operación. Podés llenar el formulario en https://www.instacredit.sv/prestamos/ o escribir a wa.me/50360710219.",
+      "Para aplicar siendo independiente, debés tener al menos 25 años y tu negocio debe tener mínimo 18 meses de operación. Podés llenar el formulario en https://www.instacredit.sv/prestamos/ o escribir a wa.me/50360710219."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Solicitar crédito",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Requisitos%20independiente%20/%20tengo%20negocio%20/%20soy%20comerciante"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "emprendimiento-no-aplica-sv",
+    "pregunta": "Quiero empezar un emprendimiento",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "cobertura_producto",
+    "intencion": "consultar_emprendimiento_no_aplica",
+    "keywords": [
+      "empezar negocio",
+      "crédito para emprender",
+      "nuevo emprendimiento",
+      "financiar mi idea",
+      "abrir un local",
+      "soy emprendedor"
+    ],
+    "respuestas": [
+      "Actualmente no ofrecemos créditos para iniciar emprendimientos. Para conocer otras opciones, podés visitar https://www.instacredit.sv/prestamos/ o escribirnos al WhatsApp wa.me/50360710219.",
+      "Por ahora no ofrecemos créditos para iniciar emprendimientos. Para conocer otras opciones, podés visitar https://www.instacredit.sv/prestamos/ o escribirnos al WhatsApp wa.me/50360710219."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Solicitar crédito",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20empezar%20un%20emprendimiento"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "requisitos-pensionado-sv",
+    "pregunta": "Requisitos pensionado / jubilado",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "requisitos",
+    "intencion": "consultar_requisitos_pensionado",
+    "keywords": [
+      "crédito para pensionado",
+      "soy jubilado",
+      "quiero crédito con pensión",
+      "edad mínima para pensionado",
+      "requisitos para jubilados"
+    ],
+    "respuestas": [
+      "Debés tener mínimo 55 años, constancia de pensión y un recibo de agua o luz no mayor a 30 días. Podés solicitar en https://www.instacredit.sv/prestamos/ o contactarnos por WhatsApp wa.me/50360710219.",
+      "Debés tener mínimo 55 años, constancia de pensión y un recibo de agua o luz no mayor a 30 días. Podés solicitar en https://www.instacredit.sv/prestamos/ o contactarnos por WhatsApp wa.me/50360710219."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Solicitar crédito",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Requisitos%20pensionado%20/%20jubilado"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "remesas-sv",
+    "pregunta": "¿Se puede con remesas?",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "remesas",
+    "intencion": "consultar_remesas",
+    "keywords": [
+      "puedo aplicar con remesa",
+      "uso remesas",
+      "recibo remesas",
+      "crédito con dinero del exterior",
+      "ayuda del extranjero"
+    ],
+    "respuestas": [
+      "Sí, tenemos crédito para personas que reciben remesas. Ingresá a https://www.instacredit.sv/prestamos/ o escribinos a wa.me/50360710219 para más información.",
+      "Sí. tenemos crédito para personas que reciben remesas. Ingresá en https://www.instacredit.sv/prestamos/ o escribinos a wa.me/50360710219 para más información."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Solicitar crédito",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFSe%20puede%20con%20remesas%3F"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "record-crediticio-sv",
+    "pregunta": "Revisan mi récord crediticio / Dicom / estoy manchado",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "analisis_crediticio",
+    "intencion": "consultar_record_crediticio",
+    "keywords": [
+      "historial crediticio",
+      "dicom",
+      "estoy manchado",
+      "revisión de crédito",
+      "consultan buró"
+    ],
+    "respuestas": [
+      "Sí, validamos el récord crediticio como parte del análisis de solicitud. Es un paso estándar en todos nuestros procesos.",
+      "Sí. validamos el récord crediticio como parte del análisis de solicitud. Es un paso estándar en todos nuestros procesos."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Revisan%20mi%20r%C3%A9cord%20crediticio%20/%20Dicom%20/%20estoy%20manchado"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "tasa-interes-sv",
+    "pregunta": "¿Cuánto es la tasa de interés / cómo funciona la tasa?",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "tasa_interes",
+    "intencion": "consultar_tasa_interes",
+    "keywords": [
+      "tasa de interés",
+      "interés mensual",
+      "cómo se calculan los intereses",
+      "cuánto cobran de intereses",
+      "interés fijo"
+    ],
+    "respuestas": [
+      "Nuestras tasas son fijas y se calculan sobre el saldo de la deuda. A medida que pagás, el interés disminuye. Además, podés abonar extra o cancelar sin penalizaciones.",
+      "Nuestras tasas son fijas y se calculan sobre el saldo de la deuda. A medida que pagás, el interés disminuye. Además, podés abonar extra o cancelar sin penalizaciones."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFCu%C3%A1nto%20es%20la%20tasa%20de%20inter%C3%A9s%20/%20c%C3%B3mo%20funciona%20la%20tasa%3F"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "monto-maximo-minimo-sv",
+    "pregunta": "¿Cuál es el monto máximo / mínimo?",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "montos",
+    "intencion": "consultar_monto_maximo_minimo",
+    "keywords": [
+      "cuánto prestan",
+      "monto mínimo de crédito",
+      "monto máximo préstamo",
+      "rango de préstamo",
+      "límite de crédito"
+    ],
+    "respuestas": [
+      "Los montos pueden variar según el perfil. Ingresá a https://www.instacredit.sv/prestamos/ y completá el formulario para recibir información personalizada.",
+      "Los montos pueden variar según el perfil. Ingresá en https://www.instacredit.sv/prestamos/ y completá el formulario para recibir información personalizada."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Solicitar crédito",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFCu%C3%A1l%20es%20el%20monto%20m%C3%A1ximo%20/%20m%C3%ADnimo%3F"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "refinanciar-sv",
+    "pregunta": "Quiero / Necesito refinanciar",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "refinanciamiento",
+    "intencion": "consultar_refinanciar",
+    "keywords": [
+      "refinanciar préstamo",
+      "necesito refinanciar",
+      "reestructurar crédito",
+      "ajustar pagos",
+      "modificar plan de pagos"
+    ],
+    "respuestas": [
+      "Para consultar opciones de refinanciamiento, comunicate por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 y con gusto analizamos tu caso.",
+      "Para consultar opciones de refinanciamiento, comunicate por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 y con gusto analizamos tu caso."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20/%20Necesito%20refinanciar"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "pagos-adelantados-sv",
+    "pregunta": "¿Cobran por trámites / piden dinero adelantado?",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "prevencion_fraude",
+    "intencion": "consultar_pagos_adelantados",
+    "keywords": [
+      "me piden dinero antes",
+      "pagos anticipados",
+      "cobro por trámite",
+      "dinero antes del crédito",
+      "fraude préstamo"
+    ],
+    "respuestas": [
+      "Instacredit nunca te pedirá dinero ni pagos anticipados antes de aprobar el crédito. Toda la información oficial está en https://www.instacredit.sv/prestamos/.",
+      "Instacredit nunca te pedirá dinero ni pagos anticipados antes de aprobar el crédito. Toda la información oficial está en https://www.instacredit.sv/prestamos/."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Solicitar crédito",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFCobran%20por%20tr%C3%A1mites%20/%20piden%20dinero%20adelantado%3F"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "quien-aplica-sv",
+    "pregunta": "¿Quiénes aplican / Qué personas aplican?",
+    "tipo": "Condiciones de crédito",
+    "subtipo": "segmentos",
+    "intencion": "consultar_quien_aplica",
+    "keywords": [
+      "puedo aplicar",
+      "quién califica",
+      "perfil del solicitante",
+      "pensionado aplica",
+      "independiente puede aplicar"
+    ],
+    "respuestas": [
+      "Pueden aplicar personas asalariadas, independientes y pensionadas. Más detalles en https://www.instacredit.sv/prestamos/.",
+      "Pueden aplicar personas asalariadas, independientes y pensionadas. Más detalles en https://www.instacredit.sv/prestamos/."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Solicitar crédito",
+        "url": "https://www.instacredit.sv/prestamos/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFQui%C3%A9nes%20aplican%20/%20Qu%C3%A9%20personas%20aplican%3F"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "carta-descargo-sv",
+    "pregunta": "Quiero una carta de descargo",
+    "tipo": "Cobros",
+    "subtipo": "documentos",
+    "intencion": "gestionar_carta_descargo",
+    "keywords": [
+      "carta de descargo",
+      "documento de descargo",
+      "comprobante para aclarar",
+      "necesito carta para justificar",
+      "carta para descargo de deuda"
+    ],
+    "respuestas": [
+      "Podemos ayudarte con eso. Escribinos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 y con gusto trasladamos tu solicitud al área correspondiente.",
+      "Podemos ayudarte con eso. Escribinos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 y con gusto trasladamos tu solicitud al área correspondiente."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20una%20carta%20de%20descargo"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "medios-de-pago-sv",
+    "pregunta": "Medios de pago",
+    "tipo": "Cobros",
+    "subtipo": "medios_pago",
+    "intencion": "gestionar_medios_de_pago",
+    "keywords": [
+      "cómo pagar",
+      "formas de pago",
+      "dónde puedo pagar",
+      "opciones para pagar",
+      "canales de pago disponibles"
+    ],
+    "respuestas": [
+      "Podés consultar nuestros medios de pago en https://www.instacredit.sv/medios_de_pago/. Ahí encontrás todas las opciones para cancelar tu crédito de forma segura.",
+      "Podés consultar nuestros medios de pago en https://www.instacredit.sv/medios_de_pago/. Ahí encontrás todas las opciones para cancelar tu crédito de forma segura."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Medios de pago",
+        "url": "https://www.instacredit.sv/medios_de_pago/."
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Medios%20de%20pago"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "arreglo-pago-sv",
+    "pregunta": "Necesito arreglo de pago / voy atrasado que hago",
+    "tipo": "Cobros",
+    "subtipo": "arreglo_pago",
+    "intencion": "gestionar_arreglo_pago",
+    "keywords": [
+      "arreglo de pago",
+      "pagar deuda vencida",
+      "estoy atrasado",
+      "me atrasé con las cuotas",
+      "plan de pago"
+    ],
+    "respuestas": [
+      "Queremos ayudarte a encontrar una solución. Contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para revisar tu caso con un asesor.",
+      "Queremos ayudarte a encontrar una solución. Contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para revisar tu caso con un asesor."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Necesito%20arreglo%20de%20pago%20/%20voy%20atrasado%20que%20hago"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "reportar-pago-sv",
+    "pregunta": "Quiero reportar un pago",
+    "tipo": "Cobros",
+    "subtipo": "reporte_pago",
+    "intencion": "gestionar_reportar_pago",
+    "keywords": [
+      "avisar que pagué",
+      "confirmar pago",
+      "ya pagué",
+      "reportar transferencia",
+      "enviar comprobante"
+    ],
+    "respuestas": [
+      "Podés reportar tu pago directamente en https://www.instacredit.sv/medios_de_pago/ o consultarnos por WhatsApp wa.me/50360710219 si necesitás asistencia.",
+      "Podés reportar tu pago directamente en https://www.instacredit.sv/medios_de_pago/ o consultarnos por WhatsApp wa.me/50360710219 si necesitás asistencia."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Medios de pago",
+        "url": "https://www.instacredit.sv/medios_de_pago/"
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20reportar%20un%20pago"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "cuanto-debo-sv",
+    "pregunta": "Cuánto debo",
+    "tipo": "Cobros",
+    "subtipo": "saldo",
+    "intencion": "gestionar_cuanto_debo",
+    "keywords": [
+      "saldo pendiente",
+      "cuánto tengo que pagar",
+      "estado de cuenta",
+      "monto que debo",
+      "deuda actual"
+    ],
+    "respuestas": [
+      "Para consultar tu saldo actual, escribinos a wa.me/50360710219 o llamanos al 2304-2100 y con gusto te ayudamos.",
+      "Para consultar tu saldo actual, escribinos a wa.me/50360710219 o llamanos al 2304-2100 y con gusto te ayudamos."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Cu%C3%A1nto%20debo"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "estado-cuenta-sv",
+    "pregunta": "Necesito un estado de cuenta",
+    "tipo": "Cobros",
+    "subtipo": "estado_cuenta",
+    "intencion": "gestionar_estado_cuenta",
+    "keywords": [
+      "resumen de cuenta",
+      "estado de crédito",
+      "quiero estado de cuenta",
+      "ver mis pagos",
+      "detalle de pagos"
+    ],
+    "respuestas": [
+      "Con gusto podemos gestionarlo. Contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para solicitar tu estado de cuenta.",
+      "Con gusto podemos gestionarlo. Contactanos por WhatsApp wa.me/50360710219 o llamanos al 2304-2100 para solicitar tu estado de cuenta."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Necesito%20un%20estado%20de%20cuenta"
+      }
+    ],
+    "canal_sugerido": "bot→humano_si_caso",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "contacto-asesor-sv",
+    "pregunta": "Dónde puedo llamar / hablar con un asesor / WhatsApp",
+    "tipo": "Temas generales",
+    "subtipo": "contacto",
+    "intencion": "informacion_contacto_asesor",
+    "keywords": [
+      "hablar con alguien",
+      "número de contacto",
+      "teléfono de instacredit",
+      "cómo comunicarme",
+      "asesoría directa",
+      "whatsapp"
+    ],
+    "respuestas": [
+      "Podés llamarnos al 2304-2100 o escribirnos por WhatsApp a wa.me/50360710219. Estamos para ayudarte.",
+      "Podés llamarnos al 2304-2100 o escribirnos por WhatsApp a wa.me/50360710219. Estamos para ayudarte."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20D%C3%B3nde%20puedo%20llamar%20/%20hablar%20con%20un%20asesor%20/%20WhatsApp"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "aplicar-empleo-sv",
+    "pregunta": "Quiero aplicar al puesto / empleo",
+    "tipo": "Temas generales",
+    "subtipo": "empleo",
+    "intencion": "informacion_aplicar_empleo",
+    "keywords": [
+      "trabajo en instacredit",
+      "postular a empleo",
+      "cómo aplicar",
+      "quiero trabajar con ustedes",
+      "empleos disponibles"
+    ],
+    "respuestas": [
+      "Podés ver nuestras vacantes y aplicar desde https://empleos.instacredit.com/. Ahí encontrarás toda la información actualizada.",
+      "Podés ver nuestras vacantes y aplicar desde https://empleos.instacredit.com/. Ahí encontrarás toda la información actualizada."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Ver vacantes",
+        "url": "https://empleos.instacredit.com/."
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Quiero%20aplicar%20al%20puesto%20/%20empleo"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "no-contactan-empleo-sv",
+    "pregunta": "Apliqué al puesto / empleo pero no me contactan",
+    "tipo": "Temas generales",
+    "subtipo": "empleo_seguimiento",
+    "intencion": "informacion_no_contactan_empleo",
+    "keywords": [
+      "no recibí respuesta del empleo",
+      "apliqué y no me llaman",
+      "esperando respuesta de trabajo",
+      "no me han contactado por el puesto"
+    ],
+    "respuestas": [
+      "Cada solicitud pasa por un análisis del perfil del candidato. Si calificás para la vacante, el equipo de selección te estará contactando según el avance del proceso.",
+      "Cada solicitud pasa por un análisis del perfil del candidato. Si calificás para la vacante, el equipo de selección te estará contactando según el avance del proceso."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Apliqu%C3%A9%20al%20puesto%20/%20empleo%20pero%20no%20me%20contactan"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "ubicacion-sucursales-sv",
+    "pregunta": "Dónde se ubican / están / sucursales",
+    "tipo": "Temas generales",
+    "subtipo": "sucursales",
+    "intencion": "informacion_ubicacion_sucursales",
+    "keywords": [
+      "dónde queda instacredit",
+      "oficinas disponibles",
+      "centros de atención",
+      "dónde encontrarlos",
+      "ubicación sucursales"
+    ],
+    "respuestas": [
+      "Podés consultar nuestras sucursales en https://www.instacredit.sv/centros_de_negocio/. Ahí encontrás horarios y direcciones actualizadas.",
+      "Podés consultar nuestras sucursales en https://www.instacredit.sv/centros_de_negocio/. Ahí encontrás horarios y direcciones actualizadas."
+    ],
+    "acciones": [
+      {
+        "tipo": "link",
+        "label": "Sucursales",
+        "url": "https://www.instacredit.sv/centros_de_negocio/."
+      },
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20D%C3%B3nde%20se%20ubican%20/%20est%C3%A1n%20/%20sucursales"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "borran-mensajes-sv",
+    "pregunta": "¿Por qué borran mensajes?",
+    "tipo": "Temas generales",
+    "subtipo": "moderacion_redes",
+    "intencion": "informacion_borran_mensajes",
+    "keywords": [
+      "me eliminaron comentarios",
+      "moderación en redes",
+      "por qué me borran",
+      "quitaron mi publicación"
+    ],
+    "respuestas": [
+      "Buscamos mantener un ambiente respetuoso en nuestras redes. Por eso se moderan mensajes con ofensas o lenguaje inapropiado. Si necesitás ayuda, te atendemos con gusto en los canales oficiales.",
+      "Buscamos mantener un ambiente respetuoso en nuestras redes. Por eso se moderan mensajes con ofensas o lenguaje inapropiado. Si necesitás ayuda, te atendemos con gusto en los canales oficiales."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20%C2%BFPor%20qu%C3%A9%20borran%20mensajes%3F"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "que-es-instacredit-sv",
+    "pregunta": "Ustedes son Instacredit / Qué es Instacredit",
+    "tipo": "Temas generales",
+    "subtipo": "sobre_instacredit",
+    "intencion": "informacion_que_es_instacredit",
+    "keywords": [
+      "qué es instacredit",
+      "a qué se dedican",
+      "institución financiera",
+      "instacredit el salvador"
+    ],
+    "respuestas": [
+      "Instacredit es una institución financiera con casa matriz en Costa Rica. Operamos en El Salvador, Nicaragua, Costa Rica y Panamá, brindando soluciones de crédito accesibles.",
+      "Instacredit es una institución financiera con casa matriz en Costa Rica. Operamos en El Salvador, Nicaragua, Costa Rica y Panamá, brindando soluciones de crédito accesibles."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Ustedes%20son%20Instacredit%20/%20Qu%C3%A9%20es%20Instacredit"
+      }
+    ],
+    "canal_sugerido": "bot",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "no-contestan-sv",
+    "pregunta": "No contestan / llené la solicitud y no recibí respuesta",
+    "tipo": "Quejas",
+    "subtipo": "seguimiento_solicitud",
+    "intencion": "reclamo_no_contestan",
+    "keywords": [
+      "no responden",
+      "llené el formulario y no pasa nada",
+      "nadie me llama",
+      "esperando contacto",
+      "me ignoraron"
+    ],
+    "respuestas": [
+      "Sentimos los inconvenientes. Si no has recibido respuesta, podés llamarnos al 2304-2100 o escribirnos a wa.me/50360710219 para revisar tu caso.",
+      "Sentimos los inconvenientes. Si no has recibido respuesta, podés llamarnos al 2304-2100 o escribirnos a wa.me/50360710219 para revisar tu caso."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20No%20contestan%20/%20llen%C3%A9%20la%20solicitud%20y%20no%20recib%C3%AD%20respuesta"
+      }
+    ],
+    "canal_sugerido": "humano_prioritario",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "tasa-alta-sv",
+    "pregunta": "Son tasas muy altas / Cobran mucho / interés alto",
+    "tipo": "Quejas",
+    "subtipo": "objecion_tasa",
+    "intencion": "reclamo_tasa_alta",
+    "keywords": [
+      "interés caro",
+      "tasa elevada",
+      "cobran mucho",
+      "intereses altos",
+      "costoso el crédito"
+    ],
+    "respuestas": [
+      "Las tasas son fijas y calculadas sobre el saldo, lo que permite que disminuyan conforme pagás. Además, podés abonar sin penalizaciones y acortar tu plazo.",
+      "Las tasas son fijas y calculadas sobre el saldo, lo que permite que disminuyan conforme pagás. Además, podés abonar sin penalizaciones y acortar tu plazo."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Son%20tasas%20muy%20altas%20/%20Cobran%20mucho%20/%20inter%C3%A9s%20alto"
+      }
+    ],
+    "canal_sugerido": "humano_prioritario",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "rechazado-sv",
+    "pregunta": "Piden muchos requisitos / me rechazaron el crédito",
+    "tipo": "Quejas",
+    "subtipo": "rechazo_solicitud",
+    "intencion": "reclamo_rechazado",
+    "keywords": [
+      "no me lo aprobaron",
+      "rechazaron mi solicitud",
+      "me lo negaron",
+      "muchos requisitos"
+    ],
+    "respuestas": [
+      "Sabemos que puede ser frustrante. Cada solicitud se evalúa con base en política de riesgo. Si no fue aprobado, podés acercarte a una sucursal y recibir asesoría personalizada.",
+      "Sabemos que puede ser frustrante. Cada solicitud se evalúa con base en política de riesgo. Si no fue aprobado, podés acercarte a una sucursal y recibir asesoría personalizada."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Piden%20muchos%20requisitos%20/%20me%20rechazaron%20el%20cr%C3%A9dito"
+      }
+    ],
+    "canal_sugerido": "humano_prioritario",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "acoso-llamadas-sv",
+    "pregunta": "Me mandan muchos mensajes / es una llamadera / asesores malos",
+    "tipo": "Quejas",
+    "subtipo": "contacto_excesivo",
+    "intencion": "reclamo_acoso_llamadas",
+    "keywords": [
+      "muchas llamadas",
+      "mensajes molestos",
+      "trato desagradable",
+      "me llaman sin parar",
+      "acoso telefónico"
+    ],
+    "respuestas": [
+      "Lamentamos cualquier molestia. Estamos mejorando nuestros procesos de atención. Si querés que revisemos tu caso, escribinos a wa.me/50360710219.",
+      "Lamentamos cualquier molestia. Estamos mejorando nuestros procesos de atención. Si querés que revisemos tu caso, escribinos a wa.me/50360710219."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Me%20mandan%20muchos%20mensajes%20/%20es%20una%20llamadera%20/%20asesores%20malos"
+      }
+    ],
+    "canal_sugerido": "humano_prioritario",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "formulario-error-sv",
+    "pregunta": "No me deja llenar el formulario",
+    "tipo": "Quejas",
+    "subtipo": "error_formulario",
+    "intencion": "reclamo_formulario_error",
+    "keywords": [
+      "formulario no carga",
+      "error al aplicar",
+      "no puedo llenar formulario",
+      "problema para aplicar"
+    ],
+    "respuestas": [
+      "Si tenés problemas con el formulario, escribinos por WhatsApp a wa.me/50360710219 o llamanos al 2304-2100 para ayudarte directamente.",
+      "Si tenés problemas con el formulario, escribinos por WhatsApp a wa.me/50360710219 o llamanos al 2304-2100 para ayudarte directamente."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20No%20me%20deja%20llenar%20el%20formulario"
+      }
+    ],
+    "canal_sugerido": "humano_prioritario",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "mentira-sv",
+    "pregunta": "Es mentira lo que dicen",
+    "tipo": "Quejas",
+    "subtipo": "reclamo_veracidad",
+    "intencion": "reclamo_mentira",
+    "keywords": [
+      "esto es falso",
+      "publicidad engañosa",
+      "me mintieron",
+      "no es cierto"
+    ],
+    "respuestas": [
+      "Lamentamos cualquier malentendido. Contanos qué ocurrió y haremos lo posible por ayudarte y aclararlo.",
+      "Lamentamos cualquier malentendido. Contanos qué ocurrió y haremos lo posible por ayudarte y aclararlo."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Es%20mentira%20lo%20que%20dicen"
+      }
+    ],
+    "canal_sugerido": "humano_prioritario",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  },
+  {
+    "id": "demora-aprobacion-sv",
+    "pregunta": "Demoran mucho en aprobar",
+    "tipo": "Quejas",
+    "subtipo": "demora_aprobacion",
+    "intencion": "reclamo_demora_aprobacion",
+    "keywords": [
+      "esperando aprobación",
+      "se tarda mucho",
+      "no me responden rápido",
+      "proceso lento"
+    ],
+    "respuestas": [
+      "Nuestro objetivo es aprobar en minutos, pero a veces pueden surgir retrasos por validación de documentos. Si tu caso demora, escribinos a wa.me/50360710219 para ayudarte.",
+      "Nuestro objetivo es aprobar en minutos, pero a veces pueden surgir retrasos por validación de documentos. Si tu caso demora, escribinos a wa.me/50360710219 para ayudarte."
+    ],
+    "acciones": [
+      {
+        "tipo": "whatsapp",
+        "label": "Hablar con un asesor",
+        "url": "https://wa.me/50360710219?text=Hola%2C%20necesito%20ayuda%3A%20Demoran%20mucho%20en%20aprobar"
+      }
+    ],
+    "canal_sugerido": "humano_prioritario",
+    "metadatos": {
+      "pais": "SV",
+      "lenguaje": "es",
+      "sensible": false
+    }
+  }
+]

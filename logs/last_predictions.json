@@ -1,0 +1,27 @@
+{
+  "web-g8q9g5xs": {
+    "user_msg": "cuales son los requisitos para el credito?",
+    "selected": {
+      "faq_id": "requisitos-generales-sv",
+      "intencion": "consultar_requisitos_generales",
+      "score": 0.8264285714285715
+    },
+    "alternatives": [
+      {
+        "faq_id": "requisitos-generales-sv",
+        "intencion": "consultar_requisitos_generales",
+        "score": 0.8264285714285715
+      },
+      {
+        "faq_id": "requisitos-independiente-sv",
+        "intencion": "consultar_requisitos_independiente",
+        "score": 0.5154761904761904
+      },
+      {
+        "faq_id": "requisitos-pensionado-sv",
+        "intencion": "consultar_requisitos_pensionado",
+        "score": 0.5136580086580087
+      }
+    ]
+  }
+}

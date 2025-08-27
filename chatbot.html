@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Web</title>
+  <style>
+    /* Reset básico */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #f0f0f0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    /* Contenedor general */
+    .chat-container {
+      width: 90%;
+      max-width: 600px;
+      height: 80vh;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    /* Cabecera */
+    .chat-header {
+      background: #444654;
+      color: #fff;
+      padding: 16px;
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+    /* Cuerpo con scroll */
+    .chat-body {
+      flex: 1;
+      padding: 16px;
+      overflow-y: auto;
+      background: #f7f7f8;
+    }
+    /* Pie de página */
+    .chat-footer {
+      display: flex;
+      border-top: 1px solid #ddd;
+      background: #40414f;
+    }
+    /* Input y botón */
+    #userInput {
+      flex: 1;
+      border: none;
+      padding: 14px;
+      font-size: 1rem;
+      color: #fff;
+      background: #343541;
+    }
+    #userInput::placeholder {
+      color: #bbb;
+    }
+    #sendBtn {
+      background: #10a37f;
+      color: #fff;
+      border: none;
+      padding: 0 20px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.2s;
+    }
+    #sendBtn:disabled {
+      background: #7a9cb8;
+      cursor: default;
+    }
+    #sendBtn:hover:not(:disabled) {
+      background: #0e8c6b;
+    }
+    /* Mensajes */
+    .message {
+      display: flex;
+      margin-bottom: 12px;
+    }
+    .message.user { justify-content: flex-end; }
+    .message.bot  { justify-content: flex-start; }
+    .bubble {
+      max-width: 75%;
+      padding: 12px 16px;
+      border-radius: 18px;
+      line-height: 1.5;
+      word-wrap: break-word;       /* fuerza salto de palabra */
+      white-space: pre-wrap;         /* permite múltiples líneas */
+      font-size: 0.95rem;
+      word-wrap: break-word;
+    }
+    .message.user .bubble {
+      background: #ccf2dc;
+      color: #000;
+      border-bottom-right-radius: 4px;
+    }
+    .message.bot .bubble {
+      background: #e7e7eb;
+      color: #000;
+      border-bottom-left-radius: 4px;
+    }
+    /* Spinner de carga */
+    .loading {
+      align-items: center;
+    }
+    .spinner {
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+      border: 3px solid rgba(0,0,0,0.1);
+      border-left-color: #444654;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">Chat IA</div>
+    <div id="chatBody" class="chat-body"></div>
+    <div class="chat-footer">
+      <input type="text" id="userInput" placeholder="Escribe tu mensaje..." autocomplete="off">
+      <button id="sendBtn">Enviar</button>
+    </div>
+  </div>
+
+  <script>
+    const chatBody = document.getElementById('chatBody');
+    const input = document.getElementById('userInput');
+    const sendBtn = document.getElementById('sendBtn');
+    const userId = localStorage.getItem("user_id") || generateUserId();
+    localStorage.setItem("user_id", userId);
+  
+    function generateUserId() {
+      return 'web-' + Math.random().toString(36).substr(2, 8);
+    }
+  
+    sendBtn.addEventListener('click', sendMessage);
+    input.addEventListener('keypress', e => {
+      if (e.key === 'Enter') sendMessage();
+    });
+  
+    // Decodifica entidades HTML (&lt; &gt; &amp; etc.)
+    function decodeEntities(str) {
+      const txt = document.createElement('textarea');
+      txt.innerHTML = str;
+      return txt.value;
+    }
+  
+    async function sendMessage() {
+      const text = input.value.trim();
+      if (!text) return;
+  
+      appendMessage('user', text);
+      input.value = '';
+      toggleInput(false);
+      const loadEl = appendLoading();
+  
+      try {
+        const res = await fetch("http://127.0.0.1:5001/chat/", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ user_id: userId, message: text })
+        });
+        const data = await res.json();
+        removeLoading(loadEl);
+        await typeMessage(data.reply);
+      } catch (err) {
+        removeLoading(loadEl);
+        appendMessage('bot', '❌ Error de conexión.');
+        console.error(err);
+      } finally {
+        toggleInput(true);
+      }
+    }
+  
+    function appendMessage(sender, rawText) {
+      // 1) Quitar comillas al inicio y final si existen
+      let text = rawText;
+      if (text.startsWith('"') && text.endsWith('"')) {
+        text = text.slice(1, -1);
+      }
+  
+      // 2) Decodificar entidades HTML para interpretar <a> correctamente
+      text = decodeEntities(text);
+  
+      const msgEl = document.createElement('div');
+      msgEl.classList.add('message', sender);
+      const bubble = document.createElement('div');
+      bubble.classList.add('bubble');
+  
+      // 3) Si hay un <a href=…> lo renderizamos; si no, texto plano con espacios preservados
+      if (/<a\s+href=/.test(text)) {
+        bubble.innerHTML = text;
+      } else {
+        bubble.textContent = text;
+      }
+  
+      msgEl.appendChild(bubble);
+      chatBody.appendChild(msgEl);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+  
+    function appendLoading() {
+      const loadEl = document.createElement('div');
+      loadEl.classList.add('message', 'bot', 'loading');
+      const spinner = document.createElement('div');
+      spinner.classList.add('spinner');
+      const bubble = document.createElement('div');
+      bubble.classList.add('bubble');
+      bubble.textContent = 'Cargando...';
+      loadEl.append(spinner, bubble);
+      chatBody.appendChild(loadEl);
+      chatBody.scrollTop = chatBody.scrollHeight;
+      return loadEl;
+    }
+  
+    function removeLoading(el) {
+      if (el) chatBody.removeChild(el);
+    }
+  
+   async function typeMessage(rawText) {
+  // 1) Quitar comillas innecesarias
+  let text = rawText;
+  if (text.startsWith('"') && text.endsWith('"')) {
+    text = text.slice(1, -1);
+  }
+
+  // 2) Decodificar entidades HTML (&lt; &gt; etc.)
+  text = decodeEntities(text);
+
+  // 3) Crear contenedor
+  const msgEl = document.createElement('div');
+  msgEl.classList.add('message', 'bot');
+  const bubble = document.createElement('div');
+  bubble.classList.add('bubble');
+  msgEl.appendChild(bubble);
+  chatBody.appendChild(msgEl);
+  chatBody.scrollTop = chatBody.scrollHeight;
+
+  // 4) Si contiene enlaces, renderizar directamente como HTML (sin animación carácter por carácter)
+  if (/<a\s+href=/.test(text)) {
+    bubble.innerHTML = text;
+  } else {
+    // Si no contiene HTML, entonces sí hacemos el efecto de tipeo
+    for (let i = 0; i < text.length; i++) {
+      bubble.textContent += text[i];
+      chatBody.scrollTop = chatBody.scrollHeight;
+      await new Promise(r => setTimeout(r, 30));
+    }
+  }
+}
+
+    function toggleInput(enabled) {
+      input.disabled = !enabled;
+      sendBtn.disabled = !enabled;
+      if (enabled) input.focus();
+    }
+  </script>
+  
+</body>
+</html>

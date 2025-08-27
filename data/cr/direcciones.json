@@ -1,0 +1,966 @@
+[
+  {
+    "zona": "Aguas Zarcas",
+    "region": "Desconocido",
+    "direccion": "Aguas Zarcas, 75 metros de la iglesia Católica",
+    "waze": "https://www.waze.com/live-map/directions?to=ll.10.375275%2C-84.341062",
+    "keywords": [
+      "católica",
+      "iglesia",
+      "aguas",
+      "zarcas",
+      "metros"
+    ],
+    "keywords_normalized": [
+      "aguas",
+      "aguaz",
+      "catolica",
+      "iglesia",
+      "iglezia",
+      "katolika",
+      "metros",
+      "metroz",
+      "sarcas",
+      "zarcas",
+      "zarcaz",
+      "zarkas"
+    ]
+  },
+  {
+    "zona": "Alajuela Centro",
+    "region": "Alajuela",
+    "direccion": "Alajuela Centro, 100 norte de Llobet",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.10.016471%2C-84.215186",
+    "keywords": [
+      "llobet",
+      "norte",
+      "alajuela",
+      "centro"
+    ],
+    "keywords_normalized": [
+      "alajuela",
+      "centro",
+      "kentro",
+      "llobet",
+      "llovet",
+      "norte",
+      "yobet"
+    ]
+  },
+  {
+    "zona": "Avenida Segunda",
+    "region": "San José",
+    "direccion": "San José, Av. Segunda, Diagonal a la C.C.S.S.",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.9.93273724%2C-84.07575867",
+    "keywords": [
+      "segunda",
+      "avenida",
+      "josé",
+      "diagonal",
+      "c.c.s.s"
+    ],
+    "keywords_normalized": [
+      "abenida",
+      "avenida",
+      "ccss",
+      "cczz",
+      "diagonal",
+      "jose",
+      "joze",
+      "kkss",
+      "segunda",
+      "zegunda"
+    ]
+  },
+  {
+    "zona": "Cartago Carmen",
+    "region": "Cartago",
+    "direccion": "25 metros oeste del BCR, diagonal a la Iglesia del Carmen",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.9.865034%2C-83.923023",
+    "keywords": [
+      "iglesia",
+      "oeste",
+      "carmen",
+      "bcr",
+      "diagonal",
+      "cartago",
+      "metros"
+    ],
+    "keywords_normalized": [
+      "bcr",
+      "carmen",
+      "cartago",
+      "diagonal",
+      "iglesia",
+      "iglezia",
+      "karmen",
+      "kartago",
+      "metros",
+      "metroz",
+      "oeste",
+      "oezte"
+    ]
+  },
+  {
+    "zona": "Cañas",
+    "region": "Guanacaste",
+    "direccion": "Guanacaste, Cañas, 25 metros norte de la Municipalidad",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.10.427299%2C-85.091764",
+    "keywords": [
+      "norte",
+      "guanacaste",
+      "cañas",
+      "municipalidad",
+      "metros"
+    ],
+    "keywords_normalized": [
+      "canas",
+      "canaz",
+      "guanacaste",
+      "guanacazte",
+      "guanakaste",
+      "kanas",
+      "metros",
+      "metroz",
+      "municipalidad",
+      "munikipalidad",
+      "norte"
+    ]
+  },
+  {
+    "zona": "Ciudad Neily",
+    "region": "Zona Sur",
+    "direccion": "De la entrada principal de Ciudad Neily 50 m a mano derecha",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.8.646372%2C-82.943725",
+    "keywords": [
+      "neily",
+      "entrada",
+      "principal",
+      "derecha",
+      "mano",
+      "ciudad"
+    ],
+    "keywords_normalized": [
+      "ciudad",
+      "derecha",
+      "derekha",
+      "entrada",
+      "kiudad",
+      "mano",
+      "neilll",
+      "neily",
+      "principal",
+      "prinkipal"
+    ]
+  },
+  {
+    "zona": "Curridabat",
+    "region": "San José",
+    "direccion": "San José Curridabat, frente a la entrada principal de Multiplaza del Este",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.9.9186%2C-84.0467",
+    "keywords": [
+      "entrada",
+      "josé",
+      "frente",
+      "principal",
+      "multiplaza",
+      "este",
+      "curridabat"
+    ],
+    "keywords_normalized": [
+      "curridabat",
+      "curridavat",
+      "entrada",
+      "este",
+      "ezte",
+      "frente",
+      "jose",
+      "joze",
+      "kurridabat",
+      "multiplasa",
+      "multiplaza",
+      "principal",
+      "prinkipal"
+    ]
+  },
+  {
+    "zona": "Desamparados",
+    "region": "Desconocido",
+    "direccion": "Centro Comercial de Desamparados contiguo a Carnes San Martín",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.9.899897%2C-84.068827",
+    "keywords": [
+      "desamparados",
+      "contiguo",
+      "martín",
+      "comercial",
+      "centro",
+      "carnes"
+    ],
+    "keywords_normalized": [
+      "carnes",
+      "carnez",
+      "centro",
+      "comercial",
+      "contiguo",
+      "desamparados",
+      "dezamparadoz",
+      "karnes",
+      "kentro",
+      "komerkial",
+      "kontiguo",
+      "martin"
+    ]
+  },
+  {
+    "zona": "El Roble",
+    "region": "Puntarenas",
+    "direccion": "Puntarenas, El Roble, Centro Comercial Plaza la Rioja, local #7",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.9.97742%2C-84.733576",
+    "keywords": [
+      "el",
+      "plaza",
+      "comercial",
+      "local",
+      "roble",
+      "centro",
+      "rioja",
+      "puntarenas"
+    ],
+    "keywords_normalized": [
+      "centro",
+      "comercial",
+      "el",
+      "kentro",
+      "komerkial",
+      "local",
+      "lokal",
+      "plasa",
+      "plaza",
+      "puntarenas",
+      "puntarenaz",
+      "rioja",
+      "roble",
+      "rovle"
+    ]
+  },
+  {
+    "zona": "Filadelfia",
+    "region": "Guanacaste",
+    "direccion": "Guanacaste, Filadelfia, Diagonal al BN",
+    "waze": "https://www.waze.com/es-419/live-map/directions?to=ll.10.445316%2C-85.551894",
+    "keywords": [
+      "guanacaste",
+      "filadelfia",
+      "diagonal"
+    ],
+    "keywords_normalized": [
+      "diagonal",
+      "filadelfia",
+      "guanacaste",
+      "guanacazte",
+      "guanakaste"
+    ]
+  },
+  {
+    "zona": "Fortuna",
+    "region": "Desconocido",
+    "direccion": "Fortuna, Avenida Central, frente al colegio técnico. Edificio color naranja",
+    "waze": "https://ul.waze.com/ul?ll=10.47180773%2C-84.64140773&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "central",
+      "avenida",
+      "frente",
+      "colegio",
+      "técnico",
+      "color",
+      "edificio",
+      "naranja",
+      "fortuna"
+    ],
+    "keywords_normalized": [
+      "abenida",
+      "avenida",
+      "central",
+      "colegio",
+      "color",
+      "edificio",
+      "edifikio",
+      "fortuna",
+      "frente",
+      "kentral",
+      "kolegio",
+      "kolor",
+      "naranja",
+      "tecnico",
+      "tekniko"
+    ]
+  },
+  {
+    "zona": "Grecia",
+    "region": "Alajuela",
+    "direccion": "Alajuela, Grecia centro, 100 metros oeste de la Mutual Alajuela, o costado sur del Mercado Municipal.",
+    "waze": "https://ul.waze.com/ul?venue_id=180682853.1806762991.15313450&overview=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "oeste",
+      "mercado",
+      "costado",
+      "alajuela",
+      "mutual",
+      "municipal",
+      "centro",
+      "metros",
+      "grecia"
+    ],
+    "keywords_normalized": [
+      "alajuela",
+      "centro",
+      "costado",
+      "coztado",
+      "grecia",
+      "grekia",
+      "kentro",
+      "kostado",
+      "mercado",
+      "merkado",
+      "metros",
+      "metroz",
+      "municipal",
+      "munikipal",
+      "mutual",
+      "oeste",
+      "oezte"
+    ]
+  },
+  {
+    "zona": "Guadalupe",
+    "region": "San José",
+    "direccion": "San José, Guadalupe, 50 metros oeste del BNCR",
+    "waze": "https://ul.waze.com/ul?ll=9.94775849%2C-84.05172944&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "guadalupe",
+      "bncr",
+      "oeste",
+      "josé",
+      "metros"
+    ],
+    "keywords_normalized": [
+      "bncr",
+      "bnkr",
+      "guadalupe",
+      "jose",
+      "joze",
+      "metros",
+      "metroz",
+      "oeste",
+      "oezte",
+      "vncr"
+    ]
+  },
+  {
+    "zona": "Guápiles",
+    "region": "Desconocido",
+    "direccion": "Guápiles Centro, contiguo al Pali",
+    "waze": "https://ul.waze.com/ul?ll=10.21610490%2C-83.78705978&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "contiguo",
+      "centro",
+      "pali",
+      "guápiles"
+    ],
+    "keywords_normalized": [
+      "centro",
+      "contiguo",
+      "guapiles",
+      "guapilez",
+      "kentro",
+      "kontiguo",
+      "pali"
+    ]
+  },
+  {
+    "zona": "Heredia Mercado",
+    "region": "Heredia",
+    "direccion": "Costado norte del Mercado, contiguo a Dr. Max",
+    "waze": "https://ul.waze.com/ul?ll=9.99639723%2C-84.11782980&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "norte",
+      "heredia",
+      "contiguo",
+      "mercado",
+      "costado"
+    ],
+    "keywords_normalized": [
+      "contiguo",
+      "costado",
+      "coztado",
+      "heredia",
+      "kontiguo",
+      "kostado",
+      "mercado",
+      "merkado",
+      "norte"
+    ]
+  },
+  {
+    "zona": "La Cañada",
+    "region": "San José",
+    "direccion": "San José, Av. Segunda, 75 metros este de la Iglesia La Merced",
+    "waze": "https://ul.waze.com/ul?ll=9.93330178%2C-84.08369064&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "segunda",
+      "iglesia",
+      "josé",
+      "cañada",
+      "merced",
+      "este",
+      "la",
+      "metros"
+    ],
+    "keywords_normalized": [
+      "canada",
+      "este",
+      "ezte",
+      "iglesia",
+      "iglezia",
+      "jose",
+      "joze",
+      "kanada",
+      "la",
+      "merced",
+      "merked",
+      "metros",
+      "metroz",
+      "segunda",
+      "zegunda"
+    ]
+  },
+  {
+    "zona": "Liberia",
+    "region": "Desconocido",
+    "direccion": "Plaza 25 de Julio, frente almacenes el Rey",
+    "waze": "https://ul.waze.com/ul?venue_id=179961962.1799357479.5274071&overview=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "liberia",
+      "frente",
+      "plaza",
+      "julio",
+      "almacenes"
+    ],
+    "keywords_normalized": [
+      "almacenes",
+      "almacenez",
+      "almakenes",
+      "frente",
+      "julio",
+      "liberia",
+      "liveria",
+      "plasa",
+      "plaza"
+    ]
+  },
+  {
+    "zona": "Limón",
+    "region": "Limón",
+    "direccion": "Limón, Centro, Boulevard Pasaje Cristal, contiguo al Verdugo",
+    "waze": "https://ul.waze.com/ul?ll=9.99232931%2C-83.02732944&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "cristal",
+      "contiguo",
+      "limón",
+      "pasaje",
+      "centro",
+      "boulevard",
+      "verdugo"
+    ],
+    "keywords_normalized": [
+      "berdugo",
+      "boulebard",
+      "boulevard",
+      "centro",
+      "contiguo",
+      "cristal",
+      "criztal",
+      "kentro",
+      "kontiguo",
+      "kristal",
+      "limon",
+      "pasaje",
+      "pazaje",
+      "verdugo",
+      "voulevard"
+    ]
+  },
+  {
+    "zona": "Naranjo",
+    "region": "Alajuela",
+    "direccion": "Naranjo Centro, 150 metros al oeste del Mercado",
+    "waze": "https://ul.waze.com/ul?ll=10.09842718%2C-84.38020349&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "oeste",
+      "naranjo",
+      "mercado",
+      "centro",
+      "metros"
+    ],
+    "keywords_normalized": [
+      "centro",
+      "kentro",
+      "mercado",
+      "merkado",
+      "metros",
+      "metroz",
+      "naranjo",
+      "oeste",
+      "oezte"
+    ]
+  },
+  {
+    "zona": "Nicoya",
+    "region": "Desconocido",
+    "direccion": "175 metros este de la iglesia colonial",
+    "waze": "https://ul.waze.com/ul?ll=10.14337857%2C-85.45184255&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "iglesia",
+      "colonial",
+      "este",
+      "nicoya",
+      "metros"
+    ],
+    "keywords_normalized": [
+      "colonial",
+      "este",
+      "ezte",
+      "iglesia",
+      "iglezia",
+      "kolonial",
+      "metros",
+      "metroz",
+      "nicolla",
+      "nicoya",
+      "nikoya"
+    ]
+  },
+  {
+    "zona": "Orotina",
+    "region": "Desconocido",
+    "direccion": "Plaza Orotina frente a la Municipalidad. Local número 4",
+    "waze": "https://maps.app.goo.gl/txzw46QeR4VjZPVp9",
+    "keywords": [
+      "frente",
+      "plaza",
+      "municipalidad",
+      "número",
+      "local",
+      "orotina"
+    ],
+    "keywords_normalized": [
+      "frente",
+      "local",
+      "lokal",
+      "municipalidad",
+      "munikipalidad",
+      "numero",
+      "orotina",
+      "plasa",
+      "plaza"
+    ]
+  },
+  {
+    "zona": "Pavas",
+    "region": "Desconocido",
+    "direccion": "Frente a Plaza Rohrmoser",
+    "waze": "https://ul.waze.com/ul?ll=9.94073100%2C-84.12079096&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "rohrmoser",
+      "plaza",
+      "pavas",
+      "frente"
+    ],
+    "keywords_normalized": [
+      "frente",
+      "pabas",
+      "pavas",
+      "pavaz",
+      "plasa",
+      "plaza",
+      "rohrmoser",
+      "rohrmozer"
+    ]
+  },
+  {
+    "zona": "Plaza América",
+    "region": "San José",
+    "direccion": "San José, Hatillo, Centro Comercial Plaza América diagonal a Pizza Hut",
+    "waze": "https://ul.waze.com/ul?ll=9.91199600%2C-84.09949422&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "pizza",
+      "josé",
+      "plaza",
+      "hatillo",
+      "diagonal",
+      "comercial",
+      "centro",
+      "américa"
+    ],
+    "keywords_normalized": [
+      "america",
+      "amerika",
+      "centro",
+      "comercial",
+      "diagonal",
+      "hatillo",
+      "hatiyo",
+      "jose",
+      "joze",
+      "kentro",
+      "komerkial",
+      "pissa",
+      "pizza",
+      "plasa",
+      "plaza"
+    ]
+  },
+  {
+    "zona": "Puerto Viejo",
+    "region": "Heredia",
+    "direccion": "Heredia, Sarapiquí, Puerto Viejo, contiguo a las oficinas del ICE",
+    "waze": "https://ul.waze.com/ul?ll=10.45178292%2C-84.01347041&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "heredia",
+      "contiguo",
+      "sarapiquí",
+      "puerto",
+      "oficinas",
+      "viejo"
+    ],
+    "keywords_normalized": [
+      "biejo",
+      "contiguo",
+      "heredia",
+      "kontiguo",
+      "oficinas",
+      "oficinaz",
+      "ofikinas",
+      "puerto",
+      "sarapiqui",
+      "viejo",
+      "zarapiqui"
+    ]
+  },
+  {
+    "zona": "Puntarenas",
+    "region": "Puntarenas",
+    "direccion": "Puntarenas Centro frente al Banco de Costa Rica",
+    "waze": "https://ul.waze.com/ul?ll=9.97930106%2C-84.83204842&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "frente",
+      "banco",
+      "costa",
+      "rica",
+      "centro",
+      "puntarenas"
+    ],
+    "keywords_normalized": [
+      "banco",
+      "banko",
+      "centro",
+      "costa",
+      "cozta",
+      "frente",
+      "kentro",
+      "kosta",
+      "puntarenas",
+      "puntarenaz",
+      "rica",
+      "rika",
+      "vanco"
+    ]
+  },
+  {
+    "zona": "Pérez Zeledón",
+    "region": "Desconocido",
+    "direccion": "50 metros norte del Parque Central",
+    "waze": "https://ul.waze.com/ul?ll=9.37480164%2C-83.70318174&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "zeledón",
+      "norte",
+      "pérez",
+      "central",
+      "parque",
+      "metros"
+    ],
+    "keywords_normalized": [
+      "central",
+      "kentral",
+      "metros",
+      "metroz",
+      "norte",
+      "parque",
+      "peres",
+      "perez",
+      "seledon",
+      "zeledon"
+    ]
+  },
+  {
+    "zona": "San Carlos",
+    "region": "Zona Norte",
+    "direccion": "Costado norte del parque de Ciudad Quesada.",
+    "waze": "https://waze.com/ul/hd1gfwxr5d",
+    "keywords": [
+      "norte",
+      "parque",
+      "carlos",
+      "san",
+      "costado",
+      "quesada",
+      "ciudad"
+    ],
+    "keywords_normalized": [
+      "carlos",
+      "carloz",
+      "ciudad",
+      "costado",
+      "coztado",
+      "karlos",
+      "kiudad",
+      "kostado",
+      "norte",
+      "parque",
+      "quesada",
+      "quezada",
+      "san"
+    ]
+  },
+  {
+    "zona": "San Ramón",
+    "region": "Desconocido",
+    "direccion": "Contiguo a Laboratorio Mendéz San Ramón Centro",
+    "waze": "https://ul.waze.com/ul?ll=10.08582572%2C-84.47036862&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "mendéz",
+      "ramón",
+      "laboratorio",
+      "contiguo",
+      "san",
+      "centro"
+    ],
+    "keywords_normalized": [
+      "centro",
+      "contiguo",
+      "kentro",
+      "kontiguo",
+      "laboratorio",
+      "lavoratorio",
+      "mendes",
+      "mendez",
+      "ramon",
+      "san"
+    ]
+  },
+  {
+    "zona": "Santa Ana",
+    "region": "Desconocido",
+    "direccion": "Santa Ana Centro, del Banco Nacional 50 metros al sur",
+    "waze": "https://ul.waze.com/ul?ll=9.93111420%2C-84.18130159&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "nacional",
+      "banco",
+      "centro",
+      "ana",
+      "metros",
+      "santa"
+    ],
+    "keywords_normalized": [
+      "ana",
+      "banco",
+      "banko",
+      "centro",
+      "kentro",
+      "metros",
+      "metroz",
+      "nacional",
+      "nakional",
+      "santa",
+      "vanco",
+      "zanta"
+    ]
+  },
+  {
+    "zona": "Santa Bárbara",
+    "region": "Heredia",
+    "direccion": "Santa Bárbara, Heredia, 25 metros este del Palí",
+    "waze": "https://ul.waze.com/ul?ll=10.03578473%2C-84.15889978&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "heredia",
+      "bárbara",
+      "palí",
+      "este",
+      "metros",
+      "santa"
+    ],
+    "keywords_normalized": [
+      "barbara",
+      "este",
+      "ezte",
+      "heredia",
+      "metros",
+      "metroz",
+      "pali",
+      "santa",
+      "varvara",
+      "zanta"
+    ]
+  },
+  {
+    "zona": "Santa Cruz",
+    "region": "Guanacaste",
+    "direccion": "Guanacaste, Santa Cruz, 450 metros sur del BNCR, sobre el Boulevar, diagonal a Coopemapro",
+    "waze": "https://ul.waze.com/ul?ll=10.26193708%2C-85.58606029&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "bncr",
+      "guanacaste",
+      "coopemapro",
+      "diagonal",
+      "metros",
+      "cruz",
+      "boulevar",
+      "sobre",
+      "santa"
+    ],
+    "keywords_normalized": [
+      "bncr",
+      "bnkr",
+      "boulebar",
+      "boulevar",
+      "coopemapro",
+      "crus",
+      "cruz",
+      "diagonal",
+      "guanacaste",
+      "guanacazte",
+      "guanakaste",
+      "koopemapro",
+      "kruz",
+      "metros",
+      "metroz",
+      "santa",
+      "sobre",
+      "sovre",
+      "vncr",
+      "voulevar",
+      "zanta",
+      "zobre"
+    ]
+  },
+  {
+    "zona": "Siquirres",
+    "region": "Limón",
+    "direccion": "Limón, Siquirres, a un costado de la terminal de buses de Los Caribeños",
+    "waze": "https://ul.waze.com/ul?ll=10.10426826%2C-83.51275563&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "limón",
+      "siquirres",
+      "buses",
+      "terminal",
+      "costado",
+      "caribeños"
+    ],
+    "keywords_normalized": [
+      "buses",
+      "buzez",
+      "caribenos",
+      "caribenoz",
+      "carivenos",
+      "costado",
+      "coztado",
+      "karibenos",
+      "kostado",
+      "limon",
+      "siquirres",
+      "terminal",
+      "vuses",
+      "ziquirrez"
+    ]
+  },
+  {
+    "zona": "Tres Ríos",
+    "region": "Desconocido",
+    "direccion": "La Unión, Tres Ríos, frente al Banco Nacional",
+    "waze": "https://ul.waze.com/ul?ll=9.90943836%2C-83.98655176&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "frente",
+      "nacional",
+      "ríos",
+      "banco",
+      "tres",
+      "unión"
+    ],
+    "keywords_normalized": [
+      "banco",
+      "banko",
+      "frente",
+      "nacional",
+      "nakional",
+      "rios",
+      "rioz",
+      "tres",
+      "trez",
+      "union",
+      "vanco"
+    ]
+  },
+  {
+    "zona": "Turrialba",
+    "region": "Cartago",
+    "direccion": "Turrialba, 75 metros oeste de la Iglesia Católica de San Buenaventura",
+    "waze": "https://ul.waze.com/ul?ll=9.90522140%2C-83.68501782&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "católica",
+      "iglesia",
+      "oeste",
+      "buenaventura",
+      "metros",
+      "turrialba"
+    ],
+    "keywords_normalized": [
+      "buenabentura",
+      "buenaventura",
+      "catolica",
+      "iglesia",
+      "iglezia",
+      "katolika",
+      "metros",
+      "metroz",
+      "oeste",
+      "oezte",
+      "turrialba",
+      "turrialva",
+      "vuenaventura"
+    ]
+  },
+  {
+    "zona": "Upala",
+    "region": "Desconocido",
+    "direccion": "Upala Centro, costado este del Palí",
+    "waze": "https://ul.waze.com/ul?ll=10.89979102%2C-85.01700282&navigate=yes&zoom=17&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+    "keywords": [
+      "palí",
+      "upala",
+      "este",
+      "costado",
+      "centro"
+    ],
+    "keywords_normalized": [
+      "centro",
+      "costado",
+      "coztado",
+      "este",
+      "ezte",
+      "kentro",
+      "kostado",
+      "pali",
+      "upala"
+    ]
+  }
+]
