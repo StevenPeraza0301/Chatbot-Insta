@@ -17,10 +17,9 @@ from utils.country_selector import get_user_country, set_user_country
 from config import MODEL_NAME
 
 # ---------------------------------
-# Configuración de RAG estricto
+# Configuración de umbrales y LLM
 # ---------------------------------
-STRICT_RAG = True
-STRICT_MIN_SCORE = 0.45   # Sube a 0.55 para mayor conservadurismo
+LLM_THRESHOLD = 0.9  # Usar Mistral solo si la predicción tiene score < 0.9
 SHOW_INTERPRETATION = True  # Muestra la línea de interpretación basada SOLO en 'pregunta' del dataset
 OLLAMA_URL = "http://127.0.0.1:11434/api/chat"
 
@@ -268,7 +267,7 @@ def build_ollama_messages(user_id: str, context: str, history: list, user_msg: s
         "Si el contexto no contiene la respuesta, contesta exactamente:\n"
         "'Lo siento, no encontré información para ayudarte con eso. ¿Podés reformular tu pregunta?'\n"
         "Si el contexto incluye enlaces o acciones (CTAs), inclúyelos tal cual, sin modificarlos.\n"
-        "Responde breve, clara y literalmente basada en el contexto."
+        "Responde breve, clara y literalmente con base en los datos del contexto."
     )
     return [
         {"role": "system", "content": system_rules},
@@ -353,13 +352,13 @@ def handle_message(user_id: str, user_msg: str, channel='web') -> str:
         set_last_prediction(user_id, None)
         return fallback
 
-    # *** INTERPRETACIÓN + MODO RAG ESTRICTO ***
-    # Intentamos clasificar y responder directo del dataset (sin LLM)
+    # *** DECISIÓN DE RESPUESTA ***
+    # Intentamos clasificar y responder directo del dataset
     answer_html, score, faq_id, intent, canon_question = top_faq_answer(
-        user_msg, user_id, min_score=STRICT_MIN_SCORE
+        user_msg, user_id, min_score=0.0
     )
 
-    if answer_html:
+    if answer_html and score >= LLM_THRESHOLD:
         # Guardamos candidatos para entrenamiento
         ranked = rank_faqs(user_msg, user_id)[:3]
         alts = [{"faq_id": f.get("id"), "intencion": f.get("intencion"), "score": float(s)} for s, f in ranked]
@@ -390,15 +389,8 @@ def handle_message(user_id: str, user_msg: str, channel='web') -> str:
         update_history(user_id, user_msg, final_msg)
         return final_msg
 
-    # Si STRICT_RAG activo y no hubo match, devolvemos fallback (no LLM)
-    if STRICT_RAG:
-        fallback = "Lo siento, no encontré información para ayudarte con eso. ¿Podés reformular tu pregunta?"
-        log_no_context_question(user_msg, fallback)
-        update_history(user_id, user_msg, fallback)
-        set_last_prediction(user_id, None)
-        return fallback
-
-    # --- Si algún día decides usar LLM como último recurso (no recomendado con STRICT_RAG=True) ---
+    # --- Uso de Mistral cuando el score es menor al umbral ---
+    set_last_prediction(user_id, None)
     history, expired = get_user_history(user_id)
     messages = build_ollama_messages(user_id, context, history, user_msg)
     bot_msg = call_ollama(messages)
